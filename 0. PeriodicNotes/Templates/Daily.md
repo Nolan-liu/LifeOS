@@ -16,7 +16,7 @@
 	- [ ] +1
 	- [ ] +1
 	- [ ] +1
-- [ ] English learning course
+- [ ] Take vitamins
 - [ ] Project time statistics
 - [ ] Household accounting
 
