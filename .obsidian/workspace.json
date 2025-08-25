@@ -11,17 +11,24 @@
             "id": "f40b29ab10153a3c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "2025-08-25"
             }
           }
         ]
@@ -90,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "d4f73cbc47977f75",
@@ -129,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.canvas",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "2025-08-25 的出链列表"
             }
           },
           {
@@ -143,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "HOME.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "HOME 的大纲"
             }
           },
           {
@@ -158,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
+                "file": "HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "HOME 的反向链接列表"
             }
           },
           {
@@ -186,7 +193,7 @@
             }
           },
           {
-            "id": "ae1f888c118ba4d2",
+            "id": "5d71a4da793d6ac4",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -195,12 +202,11 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,8 +225,9 @@
   },
   "active": "f40b29ab10153a3c",
   "lastOpenFiles": [
-    "未命名.canvas",
     "HOME.canvas",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+    "未命名.canvas",
     "0. PeriodicNotes/2025/Daily/08/2025-08-22.md",
     "0. PeriodicNotes/Templates/Daily.md",
     "3. Resources/HouseViz/HouseViz.ai 可行性分析报告（深度版）.md",
@@ -246,7 +253,6 @@
     "3. Resources/SunSim/daylighting.md",
     "3. Resources/SunSim/HouseViz.ai 可行性分析报告（深度版）.md",
     "3. Resources/SunSim/AI增强的地产营销工具.md",
-    "3. Resources/SunSim/Domain analytics--HouseViz.ai.md",
     "0. PeriodicNotes/2025/Daily/08",
     "0. PeriodicNotes/2025/Daily",
     "0. PeriodicNotes/2025",
