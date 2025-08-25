@@ -2,11 +2,16 @@
 %%A snapshot of the project today%%
 <% LifeOS.Project.snapshot() %>
 
+## Main Tasks
+%%Three frogs timet management method%% 
+![[三只青蛙时间管理#^6c9f78]]
+
+- [ ] Task1 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] Task2 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] Task3 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+
 ## Daily Record
-%%Your Record, 每天要做的事%%
-- [ ] Task1 📅 <% tp.date.now("YYYY-MM-DD") %>
-- [ ] Task2 📅 <% tp.date.now("YYYY-MM-DD") %>
-- [ ] Task3 📅 <% tp.date.now("YYYY-MM-DD") %>
+%%Your Record%%
 
 ## Habit
 %%Habit will not be counted as a task%%
