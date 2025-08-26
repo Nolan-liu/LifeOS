@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TASK.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TASK"
+              "title": "2025-08-26"
             }
           }
         ]
@@ -138,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TASK.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "TASK 的出链列表"
+              "title": "2025-08-26 的出链列表"
             }
           },
           {
@@ -228,6 +228,10 @@
   },
   "active": "3c559505ff32c4bd",
   "lastOpenFiles": [
+    "3. Resources/frontend/React/Context状态管理.md",
+    "3. Resources/frontend/React/useEffect.md",
+    "3. Resources/frontend/React/React.README.md",
+    "TASK.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
     "3. Resources/HouseViz/HouseViz.README.md",
     "3. Resources/frontend/Mapbox/Mapbox学习路径.md",
@@ -236,14 +240,12 @@
     "3. Resources/frontend/Three.js/Three.README.md",
     "2. Areas/Template.md",
     "2. Areas/personal-brand/personal-brand.README.md",
-    "TASK.md",
     "3. Resources/frontend/Next.js/Next.README.md",
     "3. Resources/frontend/Mapbox/Mapbox.README.md",
     "3. Resources/frontend/Vue/Vue.README.md",
     "3. Resources/frontend/Mapbox",
     "3. Resources/frontend/Vue",
     "3. Resources/frontend/Three.js",
-    "3. Resources/frontend/React/React.README.md",
     "3. Resources/frontend/Next.js",
     "3. Resources/frontend-Next.js/Next.README.md",
     "3. Resources/frontend-Next.js",
@@ -262,8 +264,6 @@
     "1. Projects/personal-brand-wot-sharing-meeting/previous theme.md",
     "1. Projects/personal-brand-wot-sharing-meeting/wot-sharing-meeting.README.md",
     "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Verbatim manuscript.md",
-    "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Tips for Public Speaking.md",
-    "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Rehearsal Tips.md",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
     "HOME.canvas",
