@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "55c60e637359b2be",
+        "id": "8814561880d8c25c",
         "type": "tabs",
         "children": [
           {
-            "id": "96e7b88583dfb4b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. PeriodicNotes/Templates/Weekly.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Weekly"
-            }
-          },
-          {
-            "id": "02c79aeba6ab3834",
+            "id": "22bbde00711a3c4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +31,7 @@
               "title": "2025-08-26"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,6 +43,7 @@
       {
         "id": "84e30e37024d9f2a",
         "type": "tabs",
+        "dimension": 42.959917780061666,
         "children": [
           {
             "id": "cc8540b919f4ee67",
@@ -127,6 +103,7 @@
       {
         "id": "d4f73cbc47977f75",
         "type": "tabs",
+        "dimension": 57.040082219938334,
         "children": [
           {
             "id": "318abbbcd7749f6f",
@@ -249,19 +226,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "02c79aeba6ab3834",
+  "active": "22bbde00711a3c4d",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
-    "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/Templates/Weekly.md",
-    "TASK.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/previous theme.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/wot-sharing-meeting.README.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/Front-end Engineering Practice of ByteDance.pdf",
+    "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Verbatim manuscript.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Tips for Public Speaking.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Rehearsal Tips.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Possible questions from the audience.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/speech rehearsal/Existing problems.md",
+    "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
+    "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
+    "HOME.canvas",
+    "README.md",
+    "2. Areas/LLM/LLM.README.md",
+    "未命名.canvas",
+    "3. Resources/knowledge-management/如何区分Areas vs Resources.md",
+    "2. Areas/LLM",
     "3. Resources/knowledge-management/三只青蛙时间管理.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+    "0. PeriodicNotes/Templates/Daily.md",
+    "TASK.md",
     "0. PeriodicNotes/Templates/三只青蛙时间管理^.md",
     "3. Resources/knowledge-management/第二大脑的PARA和CODE概念梳理.md",
     "3. Resources/knowledge-management/knowledge-management.README.md",
-    "HOME.canvas",
-    "未命名.canvas",
     "0. PeriodicNotes/2025/Daily/08/2025-08-22.md",
     "3. Resources/HouseViz/HouseViz.ai 可行性分析报告（深度版）.md",
     "3. Resources/HouseViz/AI增强的地产营销工具.md",
@@ -269,28 +260,14 @@
     "3. Resources/HouseViz/HouseViz.README.md",
     "1. Projects/parenting-first-birthday-banquet/first-birthday-banquet.README.md",
     "3. Resources/HouseViz/HouseViz.ai 30 days tasks.md",
-    "3. Resources/HouseViz/daylighting.md",
-    "3. Resources/HouseViz/Domain analytics--HouseViz.ai.md",
-    "3. Resources/HouseViz/Global daylighting concern.md",
-    "3. Resources/HouseViz/HouseViz.ai — Pitch.md",
-    "3. Resources/HouseViz/ShademapAndShadowmapTeamInfo.md",
-    "3. Resources/HouseViz/Shadowmap_revenue_calc.md",
-    "3. Resources/HouseViz/SunDesign-Plan.md",
-    "3. Resources/HouseViz/Tasks card.md",
-    "3. Resources/HouseViz/Technical solutions.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-19.md",
     "3. Resources/HouseViz",
     "0. PeriodicNotes/2025/Daily/08",
     "0. PeriodicNotes/2025/Daily",
     "0. PeriodicNotes/2025",
-    "1. Projects/personal-brand-wot-sharing-meeting/Front-end Engineering Practice of ByteDance.pdf",
-    "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
-    "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
     "1. Projects/AP",
     "1. Projects/HouseViz-MVP",
     "3. Resources/SunSim",
     "3. Resources/Linux",
-    "2. Areas/finance",
     "4. Archives/parenting-take-a-name/baby-name.png",
     "4. Archives/parenting-take-a-name/林奕如.png",
     "1. Projects/personal-brand-wot-sharing-meeting/Attachments/PPT 素材/warning.svg",
