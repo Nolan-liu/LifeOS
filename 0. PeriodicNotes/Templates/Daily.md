@@ -25,8 +25,8 @@
 	- [ ] +1
 	- [ ] +1
 - [ ] Take vitamins
-- [ ] Project time statistics
-- [ ] Climbing stairs
+- [ ] Jingang gong yesterday
+- [ ] Climbing stairs yesterday
 
 ## Energy allocation
 %%Today's project list, according to the time consumed, automatic statistics project time consumed percentage%%

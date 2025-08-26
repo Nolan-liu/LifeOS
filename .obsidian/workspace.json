@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-25"
+              "title": "2025-08-26"
             }
           }
         ],
@@ -161,12 +161,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-08-25 的出链列表"
+              "title": "2025-08-26 的出链列表"
             }
           },
           {
@@ -251,9 +251,10 @@
   },
   "active": "02c79aeba6ab3834",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
     "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/Templates/Weekly.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
     "TASK.md",
     "3. Resources/knowledge-management/三只青蛙时间管理.md",
     "0. PeriodicNotes/Templates/三只青蛙时间管理^.md",
@@ -278,7 +279,6 @@
     "3. Resources/HouseViz/Tasks card.md",
     "3. Resources/HouseViz/Technical solutions.md",
     "0. PeriodicNotes/2023/Daily/06/2023-06-19.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-20.md",
     "3. Resources/HouseViz",
     "0. PeriodicNotes/2025/Daily/08",
     "0. PeriodicNotes/2025/Daily",
