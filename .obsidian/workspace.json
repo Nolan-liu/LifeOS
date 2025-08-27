@@ -11,10 +11,24 @@
             "id": "77412d7ac60740fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-08-27"
             }
           }
         ]
@@ -124,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/learning/learning.README.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "learning.README 的出链列表"
+              "title": "2025-08-27 的出链列表"
             }
           },
           {
@@ -212,10 +226,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "318abbbcd7749f6f",
+  "active": "77412d7ac60740fd",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
     "2. Areas/learning/learning.README.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
     "2. Areas/learning",
     "TASK.md",
     "1. Projects/AP/AP.README.md",
