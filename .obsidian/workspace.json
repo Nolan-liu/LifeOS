@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0e90e1ea64c1e1d6",
+        "id": "d386659be4b82c23",
         "type": "tabs",
         "children": [
           {
-            "id": "c5add5767d458b71",
+            "id": "2053bf709be4e5e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/relationship/parenting/parenting.README.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "parenting.README"
+              "title": "2025-08-27"
             }
           }
         ]
@@ -138,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/relationship/parenting/parenting.README.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "parenting.README 的出链列表"
+              "title": "2025-08-27 的出链列表"
             }
           },
           {
@@ -226,44 +226,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5add5767d458b71",
+  "active": "2053bf709be4e5e3",
   "lastOpenFiles": [
-    "2. Areas/relationship/marriage/marriage.README.md",
-    "2. Areas/relationship/parenting/parenting.README.md",
-    "2. Areas/relationship/parenting",
-    "2. Areas/relationship/marriage",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-05.md",
-    "2. Areas/Work/Work.README.md",
-    "0. PeriodicNotes/2023/Weekly/2023-W23.md",
-    "2. Areas/parenting/parenting.README.md",
     "1. Projects/AP/AP.README.md",
-    "3. Resources/HouseViz/HouseViz.README.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-03.md",
-    "2. Areas/relationship/relationship.README.md",
-    "2. Areas/parental-relationship/parental-relationship.README.md",
-    "2. Areas/relationship",
-    "2. Areas/marriage-relationship/marriage-relationship.README.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
-    "3. Resources/frontend/React/Context状态管理.md",
-    "3. Resources/frontend/React/useEffect.md",
-    "3. Resources/frontend/React/React.README.md",
     "TASK.md",
-    "3. Resources/frontend/Mapbox/Mapbox学习路径.md",
-    "3. Resources/frontend/Three.js/Three.js学习路径.md",
-    "3. Resources/frontend/Next.js/Vue → Next.js 技能迁移速查表.md",
-    "3. Resources/frontend/Three.js/Three.README.md",
-    "2. Areas/Template.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
+    "3. Resources/knowledge-management/knowledge-management.README.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
+    "2. Areas/life-admin/shopping/shopping.README.md",
+    "2. Areas/life-admin/shopping",
+    "2. Areas/health/mental/心理学--侵入性回忆.md",
+    "2. Areas/health/disease/4岁男童皮肤科疾病推断报告-Gemini20250506.md",
+    "2. Areas/health/disease/disease.README.md",
+    "2. Areas/health/sleep/sleep.README.md",
+    "2. Areas/health/disease",
+    "2. Areas/health/mental/mental.README.md",
+    "2. Areas/heatlth/sport/sport.README.md",
+    "2. Areas/health/mental",
+    "2. Areas/heatlth/sport",
+    "2. Areas/heatlth",
+    "2. Areas/health/diet/diet.README.md",
+    "2. Areas/health/sleep",
+    "2. Areas/health/diet",
+    "1. Projects/health/diet/diet.README.md",
+    "1. Projects/health/diet",
+    "1. Projects/health",
     "2. Areas/personal-brand/personal-brand.README.md",
-    "3. Resources/frontend/Next.js/Next.README.md",
-    "3. Resources/frontend/Mapbox/Mapbox.README.md",
-    "3. Resources/frontend/Vue/Vue.README.md",
-    "3. Resources/frontend/Mapbox",
-    "3. Resources/frontend/Vue",
-    "3. Resources/frontend/Three.js",
-    "3. Resources/frontend/Next.js",
-    "3. Resources/frontend-Next.js",
-    "3. Resources/fr",
-    "3. Resources/frontend/React",
+    "0. PeriodicNotes/2023/Daily/06/2023-06-10.md",
+    "0. PeriodicNotes/2023/Daily/06/2023-06-08.md",
+    "0. PeriodicNotes/2023/Daily/06/2023-06-05.md",
+    "0. PeriodicNotes/2023/Daily/06/2023-06-07.md",
+    "0. PeriodicNotes/2023/Daily/06/2023-06-11.md",
+    "0. PeriodicNotes/2023/Daily/06/2023-06-09.md",
+    "0. PeriodicNotes/2023/Daily/06/2023-06-04.md",
+    "-1. Capture/Predicting The Future.md",
+    "-1. Capture/Advice for ambitious 19 year olds.md",
+    "-1. Capture/爬楼计划.md",
+    "2. Areas/goals/goals.README.md",
+    "2. Areas/goals",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
     "HOME.canvas",
