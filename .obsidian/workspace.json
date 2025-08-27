@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5b47d8e20009156a",
+        "id": "51a371c36a213127",
         "type": "tabs",
         "children": [
           {
-            "id": "77412d7ac60740fd",
+            "id": "af6133104ecab8ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-08-27"
+              "title": "新标签页"
             }
           }
         ]
@@ -226,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77412d7ac60740fd",
+  "active": "5d71a4da793d6ac4",
   "lastOpenFiles": [
     "2. Areas/learning/learning.README.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
