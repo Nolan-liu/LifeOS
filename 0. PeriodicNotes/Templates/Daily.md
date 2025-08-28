@@ -10,6 +10,8 @@
 - [ ] 🐸Task2 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
 - [ ] 🐸Task3 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
 
+- **复盘**：
+	- 
 ## Daily Record
 %%Your Record%%
 
