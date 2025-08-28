@@ -13,54 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-27"
-            }
-          },
-          {
-            "id": "eeaea5cd8f0af25d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. PeriodicNotes/Templates/Daily.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Daily"
-            }
-          },
-          {
-            "id": "fd4013bd857a400f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
                 "mode": "source",
                 "source": false,
@@ -78,9 +30,32 @@
               "icon": "lucide-file",
               "title": "2025-08-28"
             }
+          },
+          {
+            "id": "ac8fb7ef0be23265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/knowledge-management/三只青蛙时间管理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "三只青蛙时间管理"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,14 +250,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd4013bd857a400f",
+  "active": "af6133104ecab8ca",
   "lastOpenFiles": [
     "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
-    "0. PeriodicNotes/Templates/Daily.md",
     "3. Resources/knowledge-management/三只青蛙时间管理.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+    "0. PeriodicNotes/Templates/Daily.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
     "2. Areas/learning/learning.README.md",
     "2. Areas/learning",
     "TASK.md",
