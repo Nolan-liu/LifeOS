@@ -6,9 +6,9 @@
 %%Three frogs timet management method%% 
 ![[三只青蛙时间管理#^6c9f78]]
 
-- [ ] Task1 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
-- [ ] Task2 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
-- [ ] Task3 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸Task1 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸Task2 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸Task3 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
 
 ## Daily Record
 %%Your Record%%
