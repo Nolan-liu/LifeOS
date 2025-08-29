@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ea12ba58efd7e45d",
+        "id": "7a9ae04c71aa8b36",
         "type": "tabs",
         "children": [
           {
-            "id": "992fcb879a516b67",
+            "id": "784c2518f56e9aa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/product-hunt/product-hunt.README.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "product-hunt.README"
+              "title": "2025-08-28"
+            }
+          },
+          {
+            "id": "585fb038d8f6a825",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-29"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#personal-productivity/GTD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +122,8 @@
               "title": "LifeOS"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d4f73cbc47977f75",
@@ -137,12 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resources/product-hunt/product-hunt.README.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "product-hunt.README 的出链列表"
+              "title": "2025-08-29 的出链列表"
             }
           },
           {
@@ -225,12 +251,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "992fcb879a516b67",
+  "active": "585fb038d8f6a825",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
+    "2. Areas/personal-productivity/GTD/GTD.README.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
     "3. Resources/product-hunt/product-hunt.README.md",
     "3. Resources/product-hunt/ReliefViz地理可视化.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
-    "2. Areas/personal-productivity/GTD/GTD.README.md",
     "3. Resources/knowledge-management/如何区分Areas vs Resources.md",
     "3. Resources/product-hunt",
     "3. Resources/knowledge-management/knowledge-management.README.md",
@@ -246,7 +274,6 @@
     "2. Areas/personal-productivity/GTD",
     "2. Areas/personal-productivity/personal-productivity.README.md",
     "2. Areas/personal-productivity/learning-skills",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
     "2. Areas/personal-productivity",
     "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
@@ -259,7 +286,6 @@
     "2. Areas/health/mental/心理学--侵入性回忆.md",
     "2. Areas/health/disease/4岁男童皮肤科疾病推断报告-Gemini20250506.md",
     "2. Areas/health/disease/disease.README.md",
-    "2. Areas/health/sleep/sleep.README.md",
     "2. Areas/health/disease",
     "2. Areas/health/mental",
     "2. Areas/heatlth/sport",
