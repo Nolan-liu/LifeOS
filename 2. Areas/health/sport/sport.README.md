@@ -1,7 +1,7 @@
 ---
 tags:
-  - learning
-aliases: "#learning"
+  - health/sport
+aliases: "#health/sport"
 ---
 ## Archived
 %%A list of archived projects in this area%%

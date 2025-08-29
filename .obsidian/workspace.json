@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "51a371c36a213127",
+        "id": "98e856f280d026a1",
         "type": "tabs",
         "children": [
           {
-            "id": "af6133104ecab8ca",
+            "id": "980ff184f0087d83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
+                "file": "2. Areas/personal-productivity/GTD/GTD.README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-28"
+              "title": "GTD.README"
             }
           },
           {
-            "id": "ac8fb7ef0be23265",
+            "id": "5fe4ed206c2a3029",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/knowledge-management/三只青蛙时间管理.md",
+                "file": "3. Resources/product-hunt/product-hunt.README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "三只青蛙时间管理"
+              "title": "product-hunt.README"
             }
           }
         ]
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Task-Management",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,8 +121,7 @@
               "title": "LifeOS"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d4f73cbc47977f75",
@@ -162,12 +161,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
+                "file": "2. Areas/personal-productivity/GTD/GTD.README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-08-28 的出链列表"
+              "title": "GTD.README 的出链列表"
             }
           },
           {
@@ -250,19 +249,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af6133104ecab8ca",
+  "active": "cc8540b919f4ee67",
   "lastOpenFiles": [
     "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
+    "3. Resources/product-hunt/product-hunt.README.md",
+    "3. Resources/knowledge-management/如何区分Areas vs Resources.md",
+    "3. Resources/product-hunt",
+    "3. Resources/knowledge-management/knowledge-management.README.md",
+    "2. Areas/Work/Work.README.md",
+    "3. Resources/frontend/React/React.README.md",
     "3. Resources/knowledge-management/三只青蛙时间管理.md",
-    "0. PeriodicNotes/Templates/Daily.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
+    "2. Areas/finance/finance.README.md",
+    "2. Areas/README.md",
+    "2. Areas/health/sport/sport.README.md",
+    "2. Areas/personal-productivity/GTD/GTD.README.md",
+    "2. Areas/health/sport",
+    "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
+    "2. Areas/personal-productivity/GTD",
+    "2. Areas/personal-productivity/personal-productivity.README.md",
+    "2. Areas/personal-productivity/learning-skills",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
+    "2. Areas/personal-productivity",
+    "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
     "2. Areas/learning/learning.README.md",
     "2. Areas/learning",
     "TASK.md",
     "1. Projects/AP/AP.README.md",
-    "3. Resources/knowledge-management/knowledge-management.README.md",
     "2. Areas/life-admin/shopping/shopping.README.md",
     "2. Areas/life-admin/shopping",
     "2. Areas/health/mental/心理学--侵入性回忆.md",
@@ -271,23 +285,8 @@
     "2. Areas/health/sleep/sleep.README.md",
     "2. Areas/health/disease",
     "2. Areas/health/mental/mental.README.md",
-    "2. Areas/heatlth/sport/sport.README.md",
     "2. Areas/health/mental",
     "2. Areas/heatlth/sport",
-    "2. Areas/heatlth",
-    "2. Areas/health/diet/diet.README.md",
-    "2. Areas/health/sleep",
-    "2. Areas/health/diet",
-    "1. Projects/health/diet/diet.README.md",
-    "1. Projects/health/diet",
-    "1. Projects/health",
-    "2. Areas/personal-brand/personal-brand.README.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-10.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-08.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-05.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-07.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-11.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-09.md",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
     "HOME.canvas",

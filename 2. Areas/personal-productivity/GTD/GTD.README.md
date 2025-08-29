@@ -1,7 +1,7 @@
 ---
 tags:
-  - heatlth/sport
-aliases: "#heatlth/sport"
+  - personal-productivity/GTD
+aliases: "#personal-productivity/GTD"
 ---
 ## Archived
 %%A list of archived projects in this area%%
