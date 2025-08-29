@@ -4,7 +4,7 @@ tags:
 aliases: "#product-hunt"
 ---
 - 官网[Product Hunt](https://www.producthunt.com)
-- 中文收集类网站 [PH今日热榜](https://decohack.com/)
+- PH热榜及创业应用网站 [PH今日热榜](https://decohack.com/)
 ## Task
 %%Query tasks based on the tags field of the [Properties](https://help.obsidian.md/Editing+and+formatting/Properties) of the current file, extracted from all the notes%%
 ```LifeOS

@@ -11,10 +11,24 @@
             "id": "992fcb879a516b67",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/product-hunt/product-hunt.README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "product-hunt.README"
             }
           }
         ]
@@ -37,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#product-hunt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,11 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3. Resources/product-hunt/product-hunt.README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "product-hunt.README 的出链列表"
             }
           },
           {
