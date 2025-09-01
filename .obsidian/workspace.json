@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/web3/web3.README.md",
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "web3.README"
+              "title": "2025-09-01"
             }
           }
         ]
@@ -228,8 +228,11 @@
   },
   "active": "a1ed6084b626f2bb",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
+    "3. Resources/AI/MCP/MCP.README.md",
+    "HOME.canvas",
+    "3. Resources/AI/MCP",
     "3. Resources/web3/web3.README.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
     "3. Resources/web3",
     "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
     "3. Resources/Linux/Linux.README.md",
@@ -260,13 +263,9 @@
     "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
     "2. Areas/finance/finance.README.md",
     "2. Areas/README.md",
-    "2. Areas/health/sport/sport.README.md",
     "2. Areas/health/sport",
-    "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
-    "2. Areas/personal-productivity/GTD",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
-    "HOME.canvas",
     "未命名.canvas",
     "4. Archives/parenting-take-a-name/baby-name.png",
     "4. Archives/parenting-take-a-name/林奕如.png",
