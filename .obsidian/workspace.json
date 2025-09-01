@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
+                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-29"
-            }
-          },
-          {
-            "id": "74f9a71189e19dc2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.12"
+              "title": "2025-08-30"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,10 +226,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74f9a71189e19dc2",
+  "active": "a7f06c4752deb207",
   "lastOpenFiles": [
-    "2. Areas/personal-productivity/habits/habits.README.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-30.md",
+    "2. Areas/personal-productivity/habits/habits.README.md",
     "2. Areas/personal-productivity/habits",
     "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
     "2. Areas/personal-productivity/GTD/GTD.README.md",
@@ -274,7 +262,6 @@
     "2. Areas/life-admin/shopping/shopping.README.md",
     "2. Areas/life-admin/shopping",
     "2. Areas/health/mental/心理学--侵入性回忆.md",
-    "2. Areas/health/disease/4岁男童皮肤科疾病推断报告-Gemini20250506.md",
     "2. Areas/health/disease",
     "2. Areas/health/mental",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
