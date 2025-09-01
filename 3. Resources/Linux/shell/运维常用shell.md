@@ -1,3 +1,8 @@
+---
+tags:
+  - "#Linux/shell"
+  - "#Linux/DevOps"
+---
 
 # netstat
 
