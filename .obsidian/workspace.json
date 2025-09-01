@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6103f0509596f6ce",
+        "id": "1e4520568dda7bc2",
         "type": "tabs",
         "children": [
           {
-            "id": "a7f06c4752deb207",
+            "id": "a1ed6084b626f2bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
+                "file": "3. Resources/web3/web3.README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-01"
-            }
-          },
-          {
-            "id": "08793354b12f4135",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-29"
+              "title": "web3.README"
             }
           }
         ]
@@ -75,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -250,10 +226,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7f06c4752deb207",
+  "active": "a1ed6084b626f2bb",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
+    "3. Resources/web3/web3.README.md",
+    "3. Resources/web3",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
+    "3. Resources/Linux/Linux.README.md",
     "3. Resources/Linux/DevOps/DevOps.README.md",
     "3. Resources/Linux/shell/运维常用shell.md",
     "3. Resources/Linux/shell/shell.README.md",
@@ -285,9 +264,6 @@
     "2. Areas/health/sport",
     "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
     "2. Areas/personal-productivity/GTD",
-    "2. Areas/personal-productivity/personal-productivity.README.md",
-    "2. Areas/personal-productivity/learning-skills",
-    "0. PeriodicNotes/Templates/Daily.md",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
     "HOME.canvas",
