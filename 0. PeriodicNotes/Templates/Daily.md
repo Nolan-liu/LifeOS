@@ -7,8 +7,8 @@
 ![[三只青蛙时间管理#^6c9f78]]
 
 - [ ] 🐸Task1;最小可执行动作;时限;完成奖励;可能阻碍 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
-- [ ] 🐸Task2 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
-- [ ] 🐸Task3 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸Task2;最小可执行动作;时限;完成奖励;可能阻碍 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸Task3;最小可执行动作;时限;完成奖励;可能阻碍 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
 
 - <% tp.date.now("YYYY-MM-DD") %> 📝 **日复盘**  #personal-productivity/review/Daily ：
 	- 今日青蛙数量：___ / 3  

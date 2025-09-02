@@ -79,8 +79,7 @@
               "title": "Daily"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,10 +274,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0309bc886339d2a",
+  "active": "a2733b2d463a3069",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
     "0. PeriodicNotes/Templates/Daily.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
     "3. Resources/knowledge-management/三只青蛙时间管理.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
