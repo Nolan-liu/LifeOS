@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "02a44c8dd782fad4",
+        "id": "262f88a324971c25",
         "type": "tabs",
         "children": [
           {
-            "id": "a139760bfbbd9186",
+            "id": "a2733b2d463a3069",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-01"
+              "title": "2025-09-02"
+            }
+          },
+          {
+            "id": "0e0a87c39ccaa801",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/knowledge-management/三只青蛙时间管理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "三只青蛙时间管理"
+            }
+          },
+          {
+            "id": "d0309bc886339d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/Templates/Daily.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -51,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Linux",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,9 +275,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a139760bfbbd9186",
+  "active": "d0309bc886339d2a",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
+    "0. PeriodicNotes/Templates/Daily.md",
+    "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
+    "3. Resources/knowledge-management/三只青蛙时间管理.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
+    "2. Areas/personal-productivity/review/Daily/Daily.README.md",
+    "2. Areas/personal-productivity/personal-productivity.README.md",
+    "2. Areas/personal-productivity/review/review.README.md",
+    "2. Areas/personal-productivity/review/Daily",
+    "2. Areas/personal-productivity/review",
+    "1. Projects/personal-productivity/review/Daily/Daily.README.md",
+    "1. Projects/personal-productivity/review/review.README.md",
+    "1. Projects/personal-productivity/review/Daily",
+    "1. Projects/personal-productivity/review",
+    "1. Projects/personal-productivity",
+    "2. Areas/Template.md",
+    "2. Areas/personal-productivity/GTD/时间管理法常见两类阻力与启动模板.md",
+    "2. Areas/personal-productivity/GTD/GTD.README.md",
     "3. Resources/AI/MCP/MCP.README.md",
     "HOME.canvas",
     "3. Resources/AI/MCP",
@@ -245,25 +311,9 @@
     "3. Resources/AI/coding/coding.README.md",
     "0. PeriodicNotes/2025/Daily/09",
     "3. Resources/AI/AI.README.md",
-    "3. Resources/AI/coding",
-    "3. Resources/AI",
     "2. Areas/personal-productivity/habits/habits.README.md",
-    "2. Areas/personal-productivity/habits",
     "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
-    "2. Areas/personal-productivity/GTD/GTD.README.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
-    "3. Resources/product-hunt/product-hunt.README.md",
-    "3. Resources/product-hunt/ReliefViz地理可视化.md",
-    "3. Resources/knowledge-management/如何区分Areas vs Resources.md",
-    "3. Resources/product-hunt",
-    "3. Resources/knowledge-management/knowledge-management.README.md",
-    "2. Areas/Work/Work.README.md",
-    "3. Resources/frontend/React/React.README.md",
-    "3. Resources/knowledge-management/三只青蛙时间管理.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-26.md",
-    "2. Areas/finance/finance.README.md",
-    "2. Areas/README.md",
-    "2. Areas/health/sport",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
     "未命名.canvas",
