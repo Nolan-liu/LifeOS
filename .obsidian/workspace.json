@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a2733b2d463a3069",
+            "id": "d0309bc886339d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,54 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "2025-09-02"
-            }
-          },
-          {
-            "id": "0e0a87c39ccaa801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Resources/knowledge-management/三只青蛙时间管理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "三只青蛙时间管理"
-            }
-          },
-          {
-            "id": "d0309bc886339d2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. PeriodicNotes/Templates/Daily.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Daily"
             }
           }
         ]
@@ -99,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "shell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,8 +97,7 @@
               "title": "LifeOS"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d4f73cbc47977f75",
@@ -200,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.canvas",
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HOME 的大纲"
+              "title": "2025-09-02 的大纲"
             }
           },
           {
@@ -274,12 +225,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2733b2d463a3069",
+  "active": "d0309bc886339d2a",
   "lastOpenFiles": [
     "0. PeriodicNotes/Templates/Daily.md",
+    "0. PeriodicNotes/2025/Daily/09/未命名.base",
+    "3. Resources/Linux/shell/运维常用shell.md",
+    "3. Resources/knowledge-management/三只青蛙时间管理.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
-    "3. Resources/knowledge-management/三只青蛙时间管理.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
     "2. Areas/personal-productivity/review/Daily/Daily.README.md",
     "2. Areas/personal-productivity/personal-productivity.README.md",
@@ -302,17 +255,14 @@
     "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
     "3. Resources/Linux/Linux.README.md",
     "3. Resources/Linux/DevOps/DevOps.README.md",
-    "3. Resources/Linux/shell/运维常用shell.md",
     "3. Resources/Linux/shell/shell.README.md",
     "3. Resources/Linux/DevOps",
     "3. Resources/Linux/shell",
     "0. PeriodicNotes/2025/Daily/08/2025-08-30.md",
     "3. Resources/AI/coding/coding.README.md",
-    "0. PeriodicNotes/2025/Daily/09",
     "3. Resources/AI/AI.README.md",
     "2. Areas/personal-productivity/habits/habits.README.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-28.md",
-    "0. PeriodicNotes/2025/Daily/08/2025-08-27.md",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
     "未命名.canvas",
