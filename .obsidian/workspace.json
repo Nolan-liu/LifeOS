@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
+                "file": "2. Areas/personal-productivity/GTD/GTD常见两类阻力与启动模板.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-02"
+              "title": "GTD常见两类阻力与启动模板"
             }
           }
         ]
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shell",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/08/2025-08-29.md",
+                "file": "2. Areas/personal-productivity/GTD/GTD常见两类阻力与启动模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-08-29 的出链列表"
+              "title": "GTD常见两类阻力与启动模板 的出链列表"
             }
           },
           {
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
+                "file": "2. Areas/personal-productivity/GTD/GTD常见两类阻力与启动模板.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-09-02 的大纲"
+              "title": "GTD常见两类阻力与启动模板 的大纲"
             }
           },
           {
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.canvas",
+                "file": "2. Areas/personal-productivity/GTD/GTD常见两类阻力与启动模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "HOME 的反向链接列表"
+              "title": "GTD常见两类阻力与启动模板 的反向链接列表"
             }
           },
           {
@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,11 +227,14 @@
   },
   "active": "d0309bc886339d2a",
   "lastOpenFiles": [
+    "2. Areas/personal-productivity/GTD/突发事件打断如何重启？.md",
+    "2. Areas/personal-productivity/GTD/GTD常见两类阻力与启动模板.md",
+    "未命名",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
     "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/2025/Daily/09/未命名.base",
     "3. Resources/Linux/shell/运维常用shell.md",
     "3. Resources/knowledge-management/三只青蛙时间管理.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-02.md",
     "0. PeriodicNotes/2025/Daily/08/2025-08-25.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-01.md",
     "2. Areas/personal-productivity/review/Daily/Daily.README.md",
@@ -245,7 +248,6 @@
     "1. Projects/personal-productivity/review",
     "1. Projects/personal-productivity",
     "2. Areas/Template.md",
-    "2. Areas/personal-productivity/GTD/时间管理法常见两类阻力与启动模板.md",
     "2. Areas/personal-productivity/GTD/GTD.README.md",
     "3. Resources/AI/MCP/MCP.README.md",
     "HOME.canvas",
@@ -257,7 +259,6 @@
     "3. Resources/Linux/DevOps/DevOps.README.md",
     "3. Resources/Linux/shell/shell.README.md",
     "3. Resources/Linux/DevOps",
-    "3. Resources/Linux/shell",
     "0. PeriodicNotes/2025/Daily/08/2025-08-30.md",
     "3. Resources/AI/coding/coding.README.md",
     "3. Resources/AI/AI.README.md",
