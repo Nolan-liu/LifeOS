@@ -9,6 +9,7 @@
 - [ ] 🐸清扫成功率区间占比；新建一个Dashboard表示清扫能力；上午完成；奖励中午看小说；禁止刷手机 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
 - [ ] 🐸清扫效率区间占比；向AI提问给出SQL语句；上午完成；奖励一杯咖啡；可以玩十分钟手机📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
 - [ ] 🐸重新创建一个next-maps和footprint；vibe coding给出代码；下午完成；奖励晚上吃汉堡；难度高但不放弃 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 硬件配置mod_pin_identifier为空字符串处理  
 - [ ] 继续增加充放电仪表盘
 - [ ] 继续增加故障点仪表盘
 
