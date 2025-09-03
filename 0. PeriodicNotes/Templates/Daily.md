@@ -37,13 +37,13 @@
 - [x] Drink a glass of water after wake up ✅ 2025-09-03
 - [x] Breakfast ✅ 2025-09-03
 - Drink water
+	- [x] +1 ✅ 2025-09-03
+	- [x] +1 ✅ 2025-09-03
+	- [x] +1 ✅ 2025-09-03
 	- [ ] +1
 	- [ ] +1
 	- [ ] +1
-	- [ ] +1
-	- [ ] +1
-	- [ ] +1
-- [ ] Take vitamins
+- [x] Take vitamins ✅ 2025-09-03
 - [x] Jingang gong yesterday ✅ 2025-09-03
 - [x] Climbing stairs yesterday ✅ 2025-09-03
 
