@@ -6,33 +6,35 @@
 %%Three frogs timet management method%% 
 ![[三只青蛙时间管理#^6c9f78]]
 
-- [ ] 🐸Task1;最小可执行动作;时限;完成奖励;可能阻碍 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
-- [ ] 🐸Task2;最小可执行动作;时限;完成奖励;可能阻碍 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
-- [ ] 🐸Task3;最小可执行动作;时限;完成奖励;可能阻碍 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸清扫成功率区间占比；新建一个Dashboard表示清扫能力；上午完成；奖励中午看小说；禁止刷手机 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸清扫效率区间占比；向AI提问给出SQL语句；上午完成；奖励一杯咖啡；可以玩十分钟手机📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 🐸重新创建一个next-maps和footprint；vibe coding给出代码；下午完成；奖励晚上吃汉堡；难度高但不放弃 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺 
+- [ ] 继续增加充放电仪表盘
+- [ ] 继续增加故障点仪表盘
 
 - <% tp.date.now("YYYY-MM-DD") %> 📝 **日复盘**  #personal-productivity/review/Daily ：
-	- 今日青蛙数量：___ / 3  
-	- 实际完成：___  
-	- 完成率：___ %  
+	- 今日青蛙数量： / 3  
+	- 实际完成：
+	- 完成率： %  
 	- 
-	- 上午满意度（1-10）：___  
-	- 下午满意度（1-10）：___  
-	- 晚间状态（1-10）：___  
+	- 上午满意度（1-10）：
+	- 下午满意度（1-10）：
+	- 晚间状态（1-10）：
 	- 
-	- 今天最大的阻碍：___  
-	- 我是否在精力高峰时吃掉了青蛙？___  
-	- 哪些青蛙今天已经不重要/不紧急？___  
-	- 我是否把青蛙拆分得足够小？___  
+	- 今天最大的阻碍：
+	- 我是否在精力高峰时吃掉了青蛙？ 
+	- 哪些青蛙今天已经不重要/不紧急？
+	- 我是否把青蛙拆分得足够小？
 	- 
-	- - 明日优先青蛙候选：___  
-	- 调整/改进措施：___ 
+	- 明日优先青蛙候选：
+	- 调整/改进措施：
 ## Daily Record
 %%Your Record%%
 
 ## Habit
 %%Habit will not be counted as a task%%
-- [ ] Drink a glass of water after wake up
-- [ ] Breakfast
+- [x] Drink a glass of water after wake up ✅ 2025-09-03
+- [x] Breakfast ✅ 2025-09-03
 - Drink water
 	- [ ] +1
 	- [ ] +1
@@ -41,8 +43,8 @@
 	- [ ] +1
 	- [ ] +1
 - [ ] Take vitamins
-- [ ] Jingang gong yesterday
-- [ ] Climbing stairs yesterday
+- [x] Jingang gong yesterday ✅ 2025-09-03
+- [x] Climbing stairs yesterday ✅ 2025-09-03
 
 ## Energy allocation
 %%Today's project list, according to the time consumed, automatic statistics project time consumed percentage%%
