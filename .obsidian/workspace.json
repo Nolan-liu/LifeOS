@@ -163,12 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. PeriodicNotes/Templates/Daily.md",
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Daily 的出链列表"
+              "title": "2025-09-04 的出链列表"
             }
           },
           {
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. PeriodicNotes/Templates/Daily.md",
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Daily 的反向链接列表"
+              "title": "2025-09-04 的反向链接列表"
             }
           },
           {
@@ -251,7 +251,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a4aba0aedc5c532",
+  "active": "6d086e2d3fce45ca",
   "lastOpenFiles": [
     "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-04.md",
