@@ -30,16 +30,6 @@
               "icon": "lucide-file",
               "title": "2025-09-08"
             }
-          },
-          {
-            "id": "4255d84d36b6dbdf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
         ]
       }
@@ -238,8 +228,8 @@
   },
   "active": "6c4c5319e9d89751",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Weekly/2025-W37.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-08.md",
+    "0. PeriodicNotes/2025/Weekly/2025-W37.md",
     "0. PeriodicNotes/2025/Weekly",
     "-1. Capture/爬楼计划.md",
     "2. Areas/personal-productivity/review/Daily/未命名.base",
