@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/HouseViz/Expo (React Native).md",
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expo (React Native)"
+              "title": "2025-09-09"
+            }
+          },
+          {
+            "id": "e5c61bf899b7748b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-08.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-08"
             }
           }
         ],
@@ -253,10 +277,11 @@
   },
   "active": "2ddef48694c514b3",
   "lastOpenFiles": [
-    "3. Resources/HouseViz/daylighting.md",
-    "3. Resources/HouseViz/Expo (React Native).md",
-    "3. Resources/HouseViz/AI增强的地产营销工具.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-08.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
+    "3. Resources/HouseViz/Expo (React Native).md",
+    "3. Resources/HouseViz/daylighting.md",
+    "3. Resources/HouseViz/AI增强的地产营销工具.md",
     "0. PeriodicNotes/2025/Weekly/2025-W37.md",
     "0. PeriodicNotes/2025/Weekly",
     "-1. Capture/爬楼计划.md",
@@ -284,7 +309,6 @@
     "2. Areas/personal-productivity/review/review.README.md",
     "2. Areas/personal-productivity/review/Daily",
     "2. Areas/personal-productivity/review",
-    "1. Projects/personal-productivity/review/Daily/Daily.README.md",
     "1. Projects/personal-productivity/review/Daily",
     "1. Projects/personal-productivity/review",
     "1. Projects/personal-productivity",
