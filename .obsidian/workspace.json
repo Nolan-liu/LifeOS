@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "2025-09-09"
             }
+          },
+          {
+            "id": "4bb1123c6b41e0c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,11 +251,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "945f5882b433eea7",
+  "active": "4bb1123c6b41e0c5",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
     "3. Resources/media/地理自媒体.md",
     "3. Resources/media/media.README.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
     "3. Resources/media",
     "-1. Capture/地理自媒体.md",
     "-1. Capture/未命名.md",
@@ -238,7 +264,6 @@
     "0. PeriodicNotes/Templates/Yearly.md",
     "4. Archives/族谱.md",
     "-1. Capture/Advice for ambitious 19 year olds.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
     "-1. Capture/README.md",
     "-1. Capture/Quality software deserves your hard‑earned cash.md",
     "-1. Capture/Predicting The Future.md",
