@@ -37,6 +37,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-11.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-11"
+            }
+          },
+          {
+            "id": "5f33c9f199a83bf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
                 "mode": "source",
                 "source": false,
@@ -253,8 +277,9 @@
   },
   "active": "4bb1123c6b41e0c5",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-11.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
     "3. Resources/media/地理自媒体.md",
     "3. Resources/media/media.README.md",
     "3. Resources/media",
@@ -281,7 +306,6 @@
     "2. Areas/personal-productivity/review/Daily/Daily.README.md",
     "0. PeriodicNotes/2023/Weekly/2023-W23.md",
     "0. PeriodicNotes/2023/Weekly/2023-W22.md",
-    "0. PeriodicNotes/2023/2023.md",
     "未命名",
     "0. PeriodicNotes/2025/Daily/09/未命名.base",
     "2. Areas/personal-productivity/review/Daily",
