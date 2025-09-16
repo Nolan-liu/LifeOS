@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
+                "file": "3. Resources/read/read.README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-09"
+              "title": "read.README"
             }
           },
           {
-            "id": "5d56c3d57ca0f651",
+            "id": "083c1c5ffbc6cd89",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. PeriodicNotes/2025/Weekly/2025-W38.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-W38"
+              "title": "新标签页"
             }
           }
         ],
@@ -147,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 304.5
   },
   "right": {
     "id": "e909704c2c67d329",
@@ -251,13 +237,23 @@
       "templates:插入模板": false
     }
   },
-  "active": "5d56c3d57ca0f651",
+  "active": "083c1c5ffbc6cd89",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Weekly/2025-W37.md",
+    "3. Resources/read/read.README.md",
+    "3. Resources/read/富爸爸商学院+富爸爸致富需要做的6件事+富爸爸穷爸爸+富爸爸提高你的财商+富爸爸财务自由之路(修订版)(套装共5册) (〔美〕罗伯特·清崎；〔美〕莎... .epub",
+    "3. Resources/read/高效能人士的七个习惯 (30周年纪念版)：打造一套全新的思维方式和原则体系 = The 7 Habits of Highly Effective People 30th Anniversary Edition ([美] 史蒂芬 · 柯维 (... .epub",
+    "3. Resources/read/认知觉醒：开启自我改变的原动力 (周岭).epub",
+    "3. Resources/read/置身事内：中国政府与经济发展 (兰小欢).epub",
+    "3. Resources/read/认知觉醒：开启自我改变的原动力 (周岭) (Z-Library).epub",
+    "3. Resources/read/高效能人士的七个习惯 (30周年纪念版)：打造一套全新的思维方式和原则体系 = The 7 Habits of Highly Effective People 30th Anniversary Edition ([美] 史蒂芬 · 柯维 (... (Z-Library).epub",
+    "3. Resources/read/富爸爸商学院+富爸爸致富需要做的6件事+富爸爸穷爸爸+富爸爸提高你的财商+富爸爸财务自由之路(修订版)(套装共5册) (〔美〕罗伯特·清崎；〔美〕莎... (Z-Library).epub",
+    "3. Resources/read/置身事内：中国政府与经济发展 (兰小欢) (Z-Library).epub",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-16.md",
+    "3. Resources/read",
     "0. PeriodicNotes/2025/Weekly/2025-W38.md",
+    "0. PeriodicNotes/2025/Weekly/2025-W37.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-16.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-11.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-12.md",
     "3. Resources/media/地理自媒体.md",
@@ -278,17 +274,6 @@
     "-1. Capture/爬楼计划.md",
     "2. Areas/Template.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-08.md",
-    "3. Resources/HouseViz/Expo (React Native).md",
-    "3. Resources/HouseViz/AI增强的地产营销工具.md",
-    "0. PeriodicNotes/2025/Weekly",
-    "2. Areas/personal-productivity/review/Daily/未命名.base",
-    "未命名",
-    "0. PeriodicNotes/2025/Daily/09/未命名.base",
-    "2. Areas/personal-productivity/review/Daily",
-    "2. Areas/personal-productivity/review",
-    "1. Projects/personal-productivity/review/Daily",
-    "1. Projects/personal-productivity/review",
-    "1. Projects/personal-productivity",
     "HOME.canvas",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Polyrepo.svg",
     "1. Projects/personal-brand-wot-sharing-meeting/architecture diagram/Monorepo.svg",
