@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "228174882ede2cf8",
+        "id": "4b2e57afd85e86fe",
         "type": "tabs",
         "children": [
           {
-            "id": "2e2ec5372dd3d7ca",
+            "id": "0fa5a082b8a192aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-17.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-09-17"
+              "title": "新标签页"
             }
           }
         ]
@@ -226,10 +212,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "2e2ec5372dd3d7ca",
+  "active": "0fa5a082b8a192aa",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/09/2025-09-16.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-17.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-16.md",
     "3. Resources/read/一句顶一万句 (刘震云).epub",
     "3. Resources/read/正念的奇迹（樊登读书会推荐版） (一行禅师 [一行禅师]).epub",
     "3. Resources/read/奇特的一生 (〔俄〕格拉宁).epub",
