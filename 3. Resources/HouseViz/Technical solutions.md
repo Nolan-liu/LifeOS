@@ -6,9 +6,9 @@
 
 # 结论（要点）
 
-- 技术栈仍然以 **Next.js (前后端同构) + Mapbox (2D 地图/地物数据) + Three.js（/WebGL）** 作为主线最为合理：Mapbox 负责 2D 地图、地址/要素点选与建筑 footprint 获取；Three.js 在“大屏弹窗”中做 3D 建模与日照可视化。
+- 技术栈仍然以 **Next.js (前后端同构) + MapLibre GL JS + Maptiler (2D 地图/地物数据) + Three.js（/WebGL）** 作为主线最为合理：MapLibre GL JS + Maptiler 负责 2D 地图、地址/要素点选与建筑 footprint 获取；Three.js 在"大屏弹窗"中做 3D 建模与日照可视化。
     
-- 对“高层判定 + 层数校验”的逻辑应以 **OSM/Mapbox 提供的 building:levels/height 为首选参考源**，若缺失则基于默认楼层高度估算并让用户输入/覆盖。高层阈值可配置（建议默认 6 层）。
+- 对"高层判定 + 层数校验"的逻辑应以 **OSM/Maptiler 提供的 building:levels/height 为首选参考源**，若缺失则基于默认楼层高度估算并让用户输入/覆盖。高层阈值可配置（建议默认 6 层）。
     
 - **建模分两级**：客户端即时近似建模（用于交互与动画）＋服务器端高精度渲染/报告（用于导出与付费报告）。
     
@@ -60,7 +60,7 @@
 
 ```
 [CLIENT - Next.js SPA]
-  ├─ Map UI (Mapbox GL JS)  <-- 2D 平面地图、建筑点选、draw工具
+  ├─ Map UI (MapLibre GL JS)  <-- 2D 平面地图、建筑点选、draw工具
   ├─ Modal 3D Viewer (Three.js)  <-- 大屏弹窗的 3D 场景
   ├─ TimeAxis Controller (local)  <-- 控制 sun position 时序
   └─ WebWorker(s)  <-- 处理建模/阴影投影计算，避免阻塞主线程
@@ -73,7 +73,7 @@
   └─ Auth / Billing / Storage (Stripe, S3, Redis queue)
 
 [Data Sources]
-  ├─ Vector Tiles / Mapbox (footprints + extruded building data)
+  ├─ Vector Tiles / Maptiler (footprints + extruded building data, better global coverage)
   ├─ OSM Overpass (backup footprints, building:levels)
   ├─ (Optional) Purchased BIM / LiDAR / City data for high-precision markets
   └─ Suncalc solar library or custom sun position module
@@ -88,17 +88,64 @@
 
 # 三、每个模块详述与实现细节
 
-## 1) 2D 地图层（Mapbox）
+## 0) UI / UX 设计规范（MVP）
+
+### A. UI 结构
+
+- 地图主界面：Maptiler + MapLibre 渲染（2D/3D 切换）。
+- 顶部/侧边工具栏：
+  - 图层切换（2D/3D、明亮/简洁）。
+  - 放大/缩小、定位。
+  - 分析模式开关（进入交互流程）。
+- 底部状态栏（可选）：显示城市/时刻/太阳高度角与方位角。
+
+### B. 建筑选中弹窗（小卡片）
+
+- 位置：地图 tooltip，指向被选建筑。
+- 内容：
+  - 建筑名称（若有）、总高度（m）、总层数（levels）。
+  - 目标楼层输入：使用 Stepper 数字选择器（1..总层数，自动校验）。
+  - 按钮：确认分析。
+- 交互：限制输入范围；缺失层数/高度时引导“估算/补充”。
+
+### C. 日照模拟弹窗（大型面板）
+
+- 呈现：覆盖式侧边栏/Modal（占屏 70–80%）。
+- 左侧控制区（≈25% 宽）：
+  - 目标建筑信息（楼层、高度、坐标）。
+  - 日期选择器、时间滑块（实时预览）。
+  - 模式：整栋 vs 指定楼层；展示阴影面积百分比。
+  - 导出：截图/报告。
+- 右侧 3D 可视化：
+  - Three.js 建模；百米范围邻近建筑半透明/灰色。
+  - 目标楼层高亮（颜色/半透明/边框）。
+  - 实时阴影渲染与时间轴联动。
+
+### D. 用户反馈与引导
+
+- 空态：右下悬浮提示“点击建筑开始分析”。
+- 数据缺失：提示“缺少高度/层数，结果为估算或无法精确”。
+- 过渡：地图点击 → 弹窗 → 3D 模拟使用缩放/淡入淡出过渡，保持空间认知。
+
+### E. 关键 UX 考量
+
+- 降低输入成本：优先 Stepper/下拉/滑块，尽量少键盘输入。
+- 上下文保留：动画过渡维持“所选建筑—原地图”的空间联系。
+- 目标楼层突出：专色/半透明/剖切显示，减少视觉搜寻成本。
+- 性能取舍：邻近建筑使用简化挤出网格，目标楼层使用较高精度；必要时仅加载 footprint + extrusion。
+
+
+## 1) 2D 地图层（MapLibre GL JS + Maptiler）
 
 - **职责**：显示街区/楼栋平面，响应点击，显示建筑信息弹窗（轻量）。
     
-- **数据获取**：先尝试 Mapbox vector tiles 的 building 图层（含 `id`，部分地区含 `height`），若缺失则调用 Overpass API (OSM) 拉取 building polygon 与 `building:levels`。
+- **数据获取**：先尝试 Maptiler vector tiles 的 building 图层（含 `id`，部分地区含 `height`，相比 Mapbox 有更全面的建筑物信息覆盖），若缺失则调用 Overpass API (OSM) 拉取 building polygon 与 `building:levels`。
     
 - **点选逻辑**：
     
-    - 点击点（屏幕坐标） → Mapbox `queryRenderedFeatures` 查找 building layer feature → 返回 feature.properties（osm_id, height, levels）并传到前端表单模块。
+    - 点击点（屏幕坐标） → MapLibre GL JS `queryRenderedFeatures` 查找 building layer feature → 返回 feature.properties（osm_id, height, levels）并传到前端表单模块。
         
-    - 若 query 没找到，弹出“手动绘制建筑边界（draw）”工具供用户绘制多边形。
+    - 若 query 没找到，弹出"手动绘制建筑边界（draw）"工具供用户绘制多边形。
         
 
 ## 2) 高层判定与层数校验（Frontend quick logic）
@@ -118,7 +165,7 @@
 
 ## 3) 用户输入表单 UX 要点
 
-- 强制校验：`1 <= floor <= totalFloors <= 100`（上限可 configurable）。
+- 强制校验：`1 <= floor <= totalFloors <= 100`（上限可 configurable）。优先使用 Stepper/下拉选择避免手动输入错误。
     
 - 提示与默认：若用户不知道总层数，允许“我不知道”，则把该建筑标为“需估算”，并用 `estimatedTotalFloors = Math.ceil( buildingHeight / floorHeight )`。
     
@@ -187,7 +234,7 @@
 
 1. `GET /api/feature?lat=..&lon=..`
     
-    - 返回：`{ feature: GeoJSONFeature | null, source: 'mapbox'|'osm' }`
+    - 返回：`{ feature: GeoJSONFeature | null, source: 'maptiler'|'osm' }`
         
 2. `POST /api/validate-floors`
     
@@ -224,7 +271,9 @@
     
 - **分步渲染**：先显示轮廓 + 估算高度，再渐进式加载细节（纹理、精细几何）。
     
-- **Fallback**：若 Mapbox/OSM 无建筑数据，提供手绘工具；若用户手机性能差，切换到 2D 投影动画而不是三维。
+- **Fallback**：若 Maptiler/OSM 无建筑数据，提供手绘工具；若用户手机性能差，切换到 2D 投影动画而不是三维。
+    
+- **过渡与高亮**：地图→模拟的放大/淡入过渡保持空间感；目标楼层使用专色/半透明高亮；邻近建筑统一灰度、降低材质复杂度以突出主体。
     
 - **资源限制**：对免费用户限制生成次数 / 并行 jobs 数量，防止滥用计算资源。
     
@@ -235,7 +284,7 @@
 
 - **不要把 Google Photorealistic 3D Tiles 用于测量/导出/分析用途**（见先前讨论）。
     
-- 合法可用的数据源：**OSM（开放）、Mapbox 矢量瓦片（遵守 Mapbox 条款）**，以及通过付费渠道获得的市政 LiDAR/BIM 数据（按授权）。
+- 合法可用的数据源：**OSM（开放）、Maptiler 矢量瓦片（遵守 Maptiler 条款）**，以及通过付费渠道获得的市政 LiDAR/BIM 数据（按授权）。
     
 - 在 UI/报告中明确「数据来源 & 精度说明」：例如“本结果基于 OSM-building 与用户输入估算，仅供参考；正式合规报告请购买高精度服务”。
     
@@ -259,9 +308,9 @@
 
 # 八、单人开发路线与工期估算（独立开发者，Lean MVP）
 
-> 假设你是单人全栈（熟悉 Next.js / Mapbox / Three.js），按周估算：
+> 假设你是单人全栈（熟悉 Next.js / MapLibre GL JS + Maptiler / Three.js），按周估算：
 
-- **Week 0**：准备与环境（Mapbox key, Next.js scaffold, Overpass helper） — 1–2 天
+- **Week 0**：准备与环境（Maptiler API key, Next.js scaffold, MapLibre GL JS 设置, Overpass helper） — 1–2 天
     
 - **Week 1**：2D 地图界面 + 点击建筑并 fetch footprint + 弹出基础 info — 4–5 天
     
@@ -297,7 +346,41 @@
 
 ---
 
-# 十、下一步（我可以立刻帮你做的 3 件事）
+# 十、MapLibre GL JS + Maptiler 技术迁移要点
+
+## 迁移优势
+- **更完整的建筑物数据覆盖**：Maptiler 在全球范围内提供更丰富的建筑物信息，解决了 Mapbox 建筑物信息不全的问题
+- **开源生态**：MapLibre GL JS 是完全开源的，避免供应商锁定
+- **成本优化**：Maptiler 的定价结构通常比 Mapbox 更灵活
+- **API 兼容性**：MapLibre GL JS 与 Mapbox GL JS API 高度兼容，迁移成本低
+
+## 关键配置更改
+```javascript
+// 原 Mapbox 配置
+mapboxgl.accessToken = 'pk.xxx';
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11'
+});
+
+// 新 MapLibre + Maptiler 配置
+import maplibregl from 'maplibre-gl';
+const map = new maplibregl.Map({
+  container: 'map',
+  style: `https://api.maptiler.com/maps/basic-v2/style.json?key=${MAPTILER_API_KEY}`,
+  // 或使用包含建筑物3D数据的样式
+  // style: `https://api.maptiler.com/maps/3d/style.json?key=${MAPTILER_API_KEY}`
+});
+```
+
+## 建筑物数据获取优化
+- **Vector Tiles 图层**：使用 Maptiler 的 `building` 图层，包含更完整的 OSM 建筑物属性
+- **3D 建筑物支持**：Maptiler 提供原生 3D 建筑物图层，可作为我们 Three.js 建模的数据补充
+- **属性丰富度**：`building:levels`, `height`, `building:material`, `roof:shape` 等属性覆盖更全
+
+---
+
+# 十一、下一步（我可以立刻帮你做的 3 件事）
 
 1. 把上面架构拆成 **详细任务卡（Jira/Trello）**，包括文件、API contract、前端组件 props、worker contracts；并给每个卡做前后端实现提示与代码片段（若需要）。
     

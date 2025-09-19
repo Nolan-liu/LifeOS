@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4b2e57afd85e86fe",
+        "id": "0fde5a40da012fe7",
         "type": "tabs",
         "children": [
           {
-            "id": "0fa5a082b8a192aa",
+            "id": "a76efefd506f3ad2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -212,19 +212,19 @@
       "templates:插入模板": false
     }
   },
-  "active": "0fa5a082b8a192aa",
+  "active": "a76efefd506f3ad2",
   "lastOpenFiles": [
-    "3. Resources/HouseViz/web_app/node_modules/@openpanel",
-    "3. Resources/HouseViz/web_app/node_modules/@next",
-    "3. Resources/HouseViz/web_app/node_modules/@mdx-js",
-    "3. Resources/HouseViz/web_app/next-env.d.ts",
-    "3. Resources/HouseViz/web_app/node_modules/@aws-sdk",
-    "3. Resources/HouseViz/web_app/node_modules/@tiptap",
     "3. Resources/HouseViz/web_app/node_modules/@types",
+    "3. Resources/HouseViz/web_app/node_modules/@uiw",
+    "3. Resources/HouseViz/web_app/node_modules/@tiptap",
     "3. Resources/HouseViz/web_app/node_modules/@tanstack",
     "3. Resources/HouseViz/web_app/node_modules/@tabler",
     "3. Resources/HouseViz/web_app/node_modules/@supabase",
+    "3. Resources/HouseViz/web_app/node_modules/@stripe",
+    "3. Resources/HouseViz/web_app/node_modules/@openrouter",
     "3. Resources/HouseViz/web_app/node_modules/@radix-ui",
+    "3. Resources/HouseViz/web_app/node_modules/@openpanel",
+    "3. Resources/HouseViz/web_app/node_modules/@mdx-js",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
