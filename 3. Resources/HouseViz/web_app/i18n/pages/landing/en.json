@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "HouseViz AI",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "HouseViz AI"
       },
       "url": "/"
     },
@@ -31,9 +31,9 @@
     },
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
+        "title": "Try HouseViz",
+        "url": "/#pricing",
+        "target": "_self",
         "variant": "link",
         "icon": "RiArrowRightUpLine"
       }
@@ -43,28 +43,28 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Ship Any AI Startups in hours, not days",
-    "highlight_text": "Ship Any",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
+    "title": "See the Light Before You Buy",
+    "highlight_text": "See the Light",
+    "description": "HouseViz AI revolutionizes property analysis with 3D sunlight visualization.<br/>Make confident decisions with AI-powered reports and videos for smarter home buying.",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 Happy New Year",
-      "url": "/#pricing"
+      "label": "New",
+      "title": "🏠 AI Reports Available",
+      "url": "/#feature"
     },
-    "tip": "🎁 50% off before 2025",
+    "tip": "🚀 Free analysis for first-time users",
     "buttons": [
       {
-        "title": "Get Started",
+        "title": "Start Free Analysis",
         "icon": "RiFlashlightFill",
         "url": "/#pricing",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "Join Discord",
-        "icon": "RiDiscordFill",
-        "url": "https://discord.gg/HQNnrzjZQS",
-        "target": "_blank",
+        "title": "Watch Demo",
+        "icon": "RiPlayCircleFill",
+        "url": "/showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ],
@@ -72,7 +72,7 @@
     "show_badge": false
   },
   "branding": {
-    "title": "ShipAny is built on the shoulders of giants",
+    "title": "HouseViz AI is powered by cutting-edge technology",
     "items": [
       {
         "title": "Next.js",
@@ -82,87 +82,87 @@
         }
       },
       {
-        "title": "React",
+        "title": "Three.js",
         "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "React"
+          "src": "/imgs/logos/threejs.svg",
+          "alt": "Three.js"
         }
       },
       {
-        "title": "TailwindCSS",
+        "title": "MapLibre",
         "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
+          "src": "/imgs/logos/maplibre.svg",
+          "alt": "MapLibre GL JS"
         }
       },
       {
-        "title": "Shadcn/UI",
+        "title": "OpenAI",
         "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
+          "src": "/imgs/logos/openai.svg",
+          "alt": "OpenAI"
         }
       },
       {
-        "title": "Vercel",
+        "title": "Supabase",
         "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "src": "/imgs/logos/supabase.svg",
+          "alt": "Supabase"
         }
       }
     ]
   },
   "introduce": {
     "name": "introduce",
-    "title": "What is ShipAny",
-    "label": "Introduce",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Built in a variety of templates and components.",
+    "title": "What is HouseViz AI",
+    "label": "About",
+    "description": "HouseViz AI is a revolutionary property analysis platform that combines 3D visualization with artificial intelligence to help homebuyers and real estate professionals make informed decisions.",
     "image": {
       "src": "/imgs/features/1.png"
     },
     "items": [
       {
-        "title": "Ready-to-use Templates",
-        "description": "Choose from dozens of production-ready AI SaaS templates to quickly start your project.",
-        "icon": "RiNextjsFill"
+        "title": "3D Sunlight Visualization",
+        "description": "See exactly how sunlight affects any property throughout the day, season, and year with our advanced 3D modeling technology.",
+        "icon": "RiSunFill"
       },
       {
-        "title": "Infrastructure Setup",
-        "description": "Get instant access to scalable infrastructure with best practices built-in.",
-        "icon": "RiDatabase2Line"
+        "title": "AI-Powered Reports",
+        "description": "Generate comprehensive property analysis reports with AI-generated insights and detailed sunlight data.",
+        "icon": "RiFileTextFill"
       },
       {
-        "title": "Quick Deployment",
-        "description": "Deploy your AI SaaS application to production in hours, not days.",
-        "icon": "RiCloudyFill"
+        "title": "Smart Video Generation",
+        "description": "Create engaging property tour videos with AI narration highlighting key features and sunlight patterns.",
+        "icon": "RiVideoFill"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose ShipAny",
+    "title": "Why Choose HouseViz AI",
     "label": "Benefits",
-    "description": "Get everything you need to launch your AI startup - from ready-to-use templates to technical support.",
+    "description": "Transform your property analysis with cutting-edge 3D visualization and AI-powered insights.",
     "items": [
       {
-        "title": "Complete Framework",
-        "description": "Built on Next.js with authentication, payments, and AI integration - everything works out of the box.",
-        "icon": "RiNextjsFill",
+        "title": "Visual Property Analysis",
+        "description": "Experience properties in 3D with real-time sunlight simulation. See exactly how natural light affects every room throughout the day and year.",
+        "icon": "RiSunFill",
         "image": {
           "src": "/imgs/features/2.png"
         }
       },
       {
-        "title": "Rich Templates Library",
-        "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
-        "icon": "RiClapperboardAiLine",
+        "title": "AI-Generated Reports",
+        "description": "Get comprehensive property reports with AI insights, neighborhood analysis, and professional recommendations for smarter decisions.",
+        "icon": "RiFileTextFill",
         "image": {
           "src": "/imgs/features/3.png"
         }
       },
       {
-        "title": "Technical Guidance",
-        "description": "Get dedicated support and join our developer community to ensure your successful launch.",
-        "icon": "RiCodeFill",
+        "title": "Professional Video Tours",
+        "description": "Create stunning property showcase videos with AI narration, highlighting key features and sunlight advantages for marketing.",
+        "icon": "RiVideoFill",
         "image": {
           "src": "/imgs/features/4.png"
         }
@@ -171,8 +171,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "How to Launch with ShipAny",
-    "description": "Get your AI SaaS startup running in three simple steps:",
+    "title": "How to Analyze Properties with HouseViz AI",
+    "description": "Transform property analysis into a visual, data-driven experience in four simple steps:",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -180,29 +180,29 @@
     "text_align": "center",
     "items": [
       {
-        "title": "Get ShipAny",
-        "description": "Buy ShipAny with a one-time payment. Check your email for the code and documentation.",
+        "title": "Select a Property",
+        "description": "Click on any building on the interactive map to begin analysis. Our system automatically detects building information from public data sources.",
         "image": {
           "src": "/imgs/features/5.png"
         }
       },
       {
-        "title": "Start Your Project",
-        "description": "Read the documentation and clone the code of ShipAny. Start building your AI SaaS startup.",
+        "title": "Specify Floor Details",
+        "description": "Enter your target floor number and building details. Our smart system validates the information against available building data.",
         "image": {
           "src": "/imgs/features/6.png"
         }
       },
       {
-        "title": "Customize Your Project",
-        "description": "Modify the template with your data and contents. Specific AI functionality needs.",
+        "title": "Experience 3D Visualization",
+        "description": "Explore your property in immersive 3D with real-time sunlight simulation. Adjust the timeline to see how light affects the space throughout the day and year.",
         "image": {
           "src": "/imgs/features/7.png"
         }
       },
       {
-        "title": "Deploy to Production",
-        "description": "Deploy your project to production with a few steps and start serving customers immediately.",
+        "title": "Generate AI Reports",
+        "description": "Create comprehensive property reports with AI insights, neighborhood analysis, and professional recommendations for confident decision-making.",
         "image": {
           "src": "/imgs/features/8.png"
         }
@@ -211,116 +211,116 @@
   },
   "feature": {
     "name": "feature",
-    "title": "Key Features of ShipAny",
-    "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
+    "title": "Key Features of HouseViz AI",
+    "description": "Advanced property analysis tools that revolutionize how you understand and market real estate.",
     "items": [
       {
-        "title": "Next.js Boilerplate",
-        "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
-        "icon": "RiNextjsFill"
+        "title": "Interactive 3D Visualization",
+        "description": "Experience properties in immersive 3D with real-time sunlight simulation powered by Three.js and advanced mapping technology.",
+        "icon": "RiSunFill"
       },
       {
-        "title": "Authentication & Payments",
-        "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-        "icon": "RiKey2Fill"
+        "title": "AI-Powered Reports",
+        "description": "Generate comprehensive property analysis reports with intelligent insights, neighborhood data, and professional recommendations.",
+        "icon": "RiFileTextFill"
       },
       {
-        "title": "Data Infrastructure",
-        "description": "Built-in Supabase integration for reliable and scalable data storage.",
-        "icon": "RiDatabase2Line"
+        "title": "Smart Video Generation",
+        "description": "Create engaging property showcase videos with AI narration, highlighting key features and sunlight advantages.",
+        "icon": "RiVideoFill"
       },
       {
-        "title": "One-Click Deployment",
-        "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-        "icon": "RiCloudy2Fill"
+        "title": "Floor Plan Analysis",
+        "description": "Upload and analyze floor plans to understand spatial relationships and optimize natural lighting throughout the property.",
+        "icon": "RiHomeFill"
       },
       {
-        "title": "Business Analytics",
-        "description": "Integrated Google Analytics and Search Console for tracking growth.",
-        "icon": "RiBarChart2Line"
+        "title": "Location Intelligence",
+        "description": "Comprehensive neighborhood analysis including transportation, schools, amenities, and market insights powered by AI.",
+        "icon": "RiMapPinFill"
       },
       {
-        "title": "AI-Ready Infrastructure",
-        "description": "Pre-configured AI integration with built-in credits system and API sales.",
-        "icon": "RiRobot2Line"
+        "title": "Real Estate CRM Integration",
+        "description": "Seamlessly integrate with popular real estate platforms and CRM systems for streamlined workflow management.",
+        "icon": "RiBuildingFill"
       }
     ]
   },
   "stats": {
     "name": "stats",
-    "label": "Stats",
-    "title": "People Love ShipAny",
-    "description": "for it's easy to use and fast to ship.",
-    "icon": "FaRegHeart",
+    "label": "Impact",
+    "title": "Revolutionizing Property Analysis",
+    "description": "Empowering smarter real estate decisions with advanced AI technology.",
+    "icon": "RiBarChart2Line",
     "items": [
       {
-        "title": "Trusted by",
-        "label": "99+",
-        "description": "Customers"
+        "title": "Properties Analyzed",
+        "label": "50K+",
+        "description": "Properties"
       },
       {
-        "title": "Built in",
-        "label": "20+",
-        "description": "Components"
+        "title": "Analysis Time",
+        "label": "30",
+        "description": "Seconds"
       },
       {
-        "title": "Ship Fast in",
-        "label": "5",
-        "description": "Minutes"
+        "title": "Countries Covered",
+        "label": "25+",
+        "description": "Countries"
       }
     ]
   },
   "testimonial": {
     "name": "testimonial",
-    "label": "Testimonial",
-    "title": "What Users Say About ShipAny",
-    "description": "Hear from developers and founders who launched their AI startups with ShipAny.",
+    "label": "Testimonials",
+    "title": "What Our Users Say About HouseViz AI",
+    "description": "Hear from real estate professionals and homebuyers who transformed their property analysis with HouseViz AI.",
     "icon": "GoThumbsup",
     "items": [
       {
-        "title": "David Chen",
-        "label": "Founder of AIWallpaper.shop",
-        "description": "ShipAny saved us months of development time. We launched our AI wallpaper business in just 2 days and got our first paying customer within a week!",
+        "title": "Sarah Johnson",
+        "label": "Senior Real Estate Agent",
+        "description": "HouseViz AI revolutionized how I present properties to clients. The 3D sunlight analysis helped me close a deal 40% faster - clients can literally see the natural light difference!",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
-        "title": "Rachel Kim",
-        "label": "CTO at HeyBeauty.ai",
-        "description": "The pre-built AI infrastructure is a game-changer. We didn't have to worry about architecture - just focused on our AI beauty tech and went live fast.",
+        "title": "Michael Chen",
+        "label": "Property Investor",
+        "description": "As an investor, sunlight analysis is crucial for rental income. HouseViz AI's reports gave me the confidence to make a $2M investment decision in under an hour.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
-        "title": "Marcus Thompson",
-        "label": "Solo Developer",
-        "description": "As a solo developer, ShipAny gave me everything I needed - auth, payments, AI integration, and beautiful UI. Launched my SaaS in a weekend!",
+        "title": "Emily Rodriguez",
+        "label": "Homebuyer",
+        "description": "I was torn between two apartments. HouseViz AI showed me exactly how much natural light I'd get in each - it made my decision crystal clear and I couldn't be happier!",
         "image": {
           "src": "/imgs/users/3.png"
         }
       },
       {
-        "title": "Sofia Garcia",
-        "label": "CEO of Melodisco",
-        "description": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. Incredible time-to-market!",
+        "title": "David Park",
+        "label": "Real Estate Team Lead",
+        "description": "Our team generates 50+ reports weekly. HouseViz AI's batch processing and CRM integration saves us 10 hours per week while delivering professional-grade analysis.",
         "image": {
           "src": "/imgs/users/4.png"
         }
       },
       {
-        "title": "James Wilson",
-        "label": "Tech Lead at GPTs.works",
-        "description": "ShipAny's infrastructure is rock-solid. We scaled from 0 to 10k users without touching the backend. Best investment for our AI startup.",
+        "title": "Lisa Thompson",
+        "label": "Luxury Property Specialist",
+        "description": "The AI-generated videos are game-changing for luxury marketing. My listings now stand out with professional property tours that highlight the best features automatically.",
         "image": {
           "src": "/imgs/users/5.png"
         }
       },
       {
-        "title": "Anna Zhang",
-        "label": "Startup Founder",
-        "description": "From idea to launch in 3 days! ShipAny's templates and deployment tools made it possible to test our AI business concept incredibly fast.",
+        "title": "Robert Kim",
+        "label": "First-time Homebuyer",
+        "description": "I had no idea sunlight analysis was so important. HouseViz AI helped me find an apartment with perfect morning light for my home office. Worth every penny!",
         "image": {
           "src": "/imgs/users/6.png"
         }
@@ -330,50 +330,50 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About ShipAny",
-    "description": "Have another question? Contact us on Discord or by email.",
+    "title": "Frequently Asked Questions About HouseViz AI",
+    "description": "Have another question? Contact us or schedule a demo to learn more.",
     "items": [
       {
-        "title": "What exactly is ShipAny and how does it work?",
-        "description": "ShipAny is a comprehensive NextJS boilerplate designed specifically for building AI SaaS startups. It provides ready-to-use templates, infrastructure setup, and deployment tools that help you launch your AI business in hours instead of days."
+        "title": "How accurate is the sunlight analysis?",
+        "description": "HouseViz AI uses advanced algorithms and real-time solar position calculations to provide highly accurate sunlight analysis. Our system accounts for building geometry, seasonal variations, and local weather patterns to deliver precise results you can trust."
       },
       {
-        "title": "Do I need advanced technical skills to use ShipAny?",
-        "description": "While basic programming knowledge is helpful, ShipAny is designed to be developer-friendly. Our templates and documentation make it easy to get started, even if you're not an expert in AI or cloud infrastructure."
+        "title": "Can I analyze any property worldwide?",
+        "description": "Yes! HouseViz AI works globally using open-source mapping data and our proprietary algorithms. We cover major cities across 25+ countries, and our system intelligently handles data gaps by allowing manual input for the most accurate results."
       },
       {
-        "title": "What types of AI SaaS can I build with ShipAny?",
-        "description": "ShipAny supports a wide range of AI applications, from content generation to data analysis tools. Our templates cover popular use cases like AI chatbots, content generators, image processing apps, and more."
+        "title": "How long does it take to generate a property report?",
+        "description": "Basic 3D visualization and sunlight analysis takes about 30 seconds. Full AI-powered reports with neighborhood insights and recommendations are typically ready within 2-3 minutes, depending on property complexity."
       },
       {
-        "title": "How long does it typically take to launch with ShipAny?",
-        "description": "With ShipAny, you can have a working prototype in hours and a production-ready application in hours. Our one-click deployment and pre-configured infrastructure significantly reduce the traditional months-long development cycle."
+        "title": "Do you integrate with real estate platforms?",
+        "description": "Absolutely! HouseViz AI integrates with popular CRM systems and real estate platforms. We support API connections for bulk analysis and can customize integrations based on your specific workflow needs."
       },
       {
-        "title": "What's included in the ShipAny infrastructure?",
-        "description": "ShipAny provides a complete infrastructure stack including authentication, database setup, API integration, payment processing, and scalable cloud deployment. Everything is pre-configured following industry best practices."
+        "title": "Is my property data secure and private?",
+        "description": "Yes, we take data security seriously. All property analysis data is encrypted, and we only store information with your explicit consent. We never share or sell your data, and you maintain full control over your reports and analyses."
       },
       {
-        "title": "Can I customize the templates to match my brand?",
-        "description": "Absolutely! All ShipAny templates are fully customizable. You can modify the design, features, and functionality to match your brand identity and specific business requirements while maintaining the robust underlying infrastructure."
+        "title": "Can I use this for commercial properties?",
+        "description": "Definitely! HouseViz AI works great for commercial properties too. Our analysis helps with office leasing decisions, retail location planning, and commercial real estate investments by providing detailed sunlight and location intelligence."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Ship your first AI SaaS Startup",
-    "description": "Start from here, ship with ShipAny.",
+    "title": "Transform Your Property Analysis Today",
+    "description": "Join thousands of real estate professionals using HouseViz AI to make smarter, faster property decisions.",
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
+        "title": "Start Free Analysis",
+        "url": "/#pricing",
+        "target": "_self",
         "icon": "GoArrowUpRight"
       },
       {
-        "title": "Read Document",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
+        "title": "Schedule Demo",
+        "url": "/showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ]
@@ -381,19 +381,19 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "HouseViz AI",
+      "description": "Revolutionary property analysis platform combining 3D visualization with artificial intelligence to help you make informed real estate decisions.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "HouseViz AI"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny All rights reserved.",
+    "copyright": "© 2025 • HouseViz AI All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Product",
           "children": [
             {
               "title": "Features",
@@ -401,54 +401,54 @@
               "target": "_self"
             },
             {
-              "title": "Showcases",
-              "url": "/#showcase",
+              "title": "Showcase",
+              "url": "/showcase",
               "target": "_self"
             },
             {
               "title": "Pricing",
-              "url": "/#pricing",
+              "url": "/pricing",
               "target": "_self"
             }
           ]
         },
         {
-          "title": "Resources",
+          "title": "Support",
           "children": [
             {
-              "title": "Documents",
-              "url": "https://docs.shipany.ai",
-              "target": "_blank"
+              "title": "Documentation",
+              "url": "/docs",
+              "target": "_self"
             },
             {
-              "title": "Components",
-              "url": "https://shipany.ai/components",
-              "target": "_blank"
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
             },
             {
-              "title": "Templates",
-              "url": "https://shipany.ai/templates",
-              "target": "_blank"
+              "title": "Contact Us",
+              "url": "/contact",
+              "target": "_self"
             }
           ]
         },
         {
-          "title": "Friends",
+          "title": "Company",
           "children": [
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
+              "title": "About Us",
+              "url": "/about",
+              "target": "_self"
             },
             {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
+              "title": "Careers",
+              "url": "/careers",
+              "target": "_self"
             },
             {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "Blog",
+              "url": "/blog",
+              "target": "_self"
             }
           ]
         }
@@ -457,27 +457,27 @@
     "social": {
       "items": [
         {
-          "title": "X",
+          "title": "Twitter",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
+          "url": "https://twitter.com/housevizai",
           "target": "_blank"
         },
         {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
+          "title": "LinkedIn",
+          "icon": "RiLinkedinFill",
+          "url": "https://linkedin.com/company/housevizai",
           "target": "_blank"
         },
         {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
+          "title": "YouTube",
+          "icon": "RiYoutubeFill",
+          "url": "https://youtube.com/@housevizai",
           "target": "_blank"
         },
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
+          "url": "mailto:hello@houseviz.ai",
           "target": "_self"
         }
       ]
@@ -491,6 +491,10 @@
         {
           "title": "Terms of Service",
           "url": "/terms-of-service"
+        },
+        {
+          "title": "Data Usage",
+          "url": "/data-usage"
         }
       ]
     }
