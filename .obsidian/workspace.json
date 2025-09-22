@@ -11,10 +11,24 @@
             "id": "a76efefd506f3ad2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/2025/Daily/09/2025-09-22.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-09-22"
             }
           }
         ]
@@ -214,6 +228,7 @@
   },
   "active": "a76efefd506f3ad2",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/09/2025-09-22.md",
     "3. Resources/HouseViz/web_app/node_modules/@types",
     "3. Resources/HouseViz/web_app/node_modules/@uiw",
     "3. Resources/HouseViz/web_app/node_modules/@tiptap",
@@ -224,7 +239,6 @@
     "3. Resources/HouseViz/web_app/node_modules/@openrouter",
     "3. Resources/HouseViz/web_app/node_modules/@radix-ui",
     "3. Resources/HouseViz/web_app/node_modules/@openpanel",
-    "3. Resources/HouseViz/web_app/node_modules/@mdx-js",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
