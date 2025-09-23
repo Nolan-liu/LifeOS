@@ -121,5 +121,18 @@
     "contact_tip": "Other ways to contact us",
     "rating_tip": "How do you feel about ShipAny?",
     "placeholder": "Leave your words here..."
+  },
+  "maplibre": {
+    "demo": "Maplibre GL JS Demo",
+    "version": "Version {version} installed successfully!",
+    "features": {
+      "rendering": "2D/3D Map Rendering",
+      "vector_tiles": "Vector Tiles Support",
+      "opensource": "Open Source & Free",
+      "license": "BSD License",
+      "compatible": "Compatible with Mapbox GL JS API"
+    },
+    "usage_example": "Basic Usage Example:",
+    "code_example": "import maplibregl from 'maplibre-gl';\n\nconst map = new maplibregl.Map({\n  container: 'map',\n  style: 'https://demotiles.maplibre.org/style.json',\n  center: [0, 0],\n  zoom: 1\n});"
   }
 }

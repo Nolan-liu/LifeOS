@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "HouseViz AI",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "HouseViz AI"
       },
       "url": "/"
     },
@@ -43,28 +43,28 @@
     "show_locale": true
   },
   "hero": {
-    "title": "几小时内快速构建 AI 创业项目，而不是几天",
-    "highlight_text": "快速构建",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。<br/>通过丰富的模板和组件快速启动。",
+    "title": "可视化阳光，释放价值",
+    "highlight_text": "可视化阳光",
+    "description": "HouseViz AI 通过3D阳光可视化和AI智能洞察革新房产分析。<br/>无论买卖还是投资，都能释放房产的真正价值，获得全面报告和智能分析。",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 新年快乐",
-      "url": "/#pricing"
+      "label": "新功能",
+      "title": "🏠 AI报告已上线",
+      "url": "/#feature"
     },
-    "tip": "🎁 2025年前五折优惠",
+    "tip": "🚀 新用户免费分析",
     "buttons": [
       {
-        "title": "立即开始",
+        "title": "开始免费分析",
         "icon": "RiFlashlightFill",
         "url": "/#pricing",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "加入 Discord",
-        "icon": "RiDiscordFill",
-        "url": "https://discord.gg/HQNnrzjZQS",
-        "target": "_blank",
+        "title": "观看演示",
+        "icon": "RiPlayCircleFill",
+        "url": "/showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ],
@@ -113,56 +113,56 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "什么是 ShipAny",
-    "label": "介绍",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，内置多种模板和组件。",
+    "title": "什么是 HouseViz AI",
+    "label": "关于",
+    "description": "HouseViz AI 是一个革命性的房产分析平台，将3D可视化与人工智能相结合，帮助购房者和房地产专业人士做出明智决策。",
     "image": {
       "src": "/imgs/features/1.png"
     },
     "items": [
       {
-        "title": "即用型模板",
-        "description": "从数十个生产就绪的 AI SaaS 模板中选择，快速启动您的项目。",
-        "icon": "RiNextjsFill"
+        "title": "3D阳光可视化",
+        "description": "使用先进的3D建模技术，精确查看阳光如何在一天、一季或一年中影响任何房产。",
+        "icon": "RiSunFill"
       },
       {
-        "title": "基础设施配置",
-        "description": "立即获取内置最佳实践的可扩展基础设施。",
-        "icon": "RiDatabase2Line"
+        "title": "AI智能报告",
+        "description": "生成包含AI洞察的综合房产分析报告，提供详细的阳光数据和专业建议。",
+        "icon": "RiFileTextFill"
       },
       {
-        "title": "快速部署",
-        "description": "在几小时内将您的 AI SaaS 应用部署到生产环境，而不是几天。",
-        "icon": "RiCloudyFill"
+        "title": "智能视频生成",
+        "description": "创建引人入胜的房产导览视频，AI旁白突出关键特色和阳光模式。",
+        "icon": "RiVideoFill"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么选择 ShipAny",
+    "title": "为什么选择 HouseViz AI",
     "label": "优势",
-    "description": "获取启动 AI 创业所需的一切 - 从即用型模板到技术支持。",
+    "description": "使用尖端的3D可视化和AI智能洞察，革新您的房产分析体验。",
     "items": [
       {
-        "title": "完整框架",
-        "description": "基于 Next.js 构建，集成身份验证、支付和 AI 功能 - 一切开箱即用。",
-        "icon": "RiNextjsFill",
+        "title": "可视化房产分析",
+        "description": "在3D环境中体验房产，实时阳光模拟。精确查看自然光如何在一天和一年中影响每个房间。",
+        "icon": "RiSunFill",
         "image": {
           "src": "/imgs/features/2.png"
         }
       },
       {
-        "title": "丰富的模板库",
-        "description": "选择各种 AI SaaS 模板来启动您的项目 - 聊天机器人、图像生成等。",
-        "icon": "RiClapperboardAiLine",
+        "title": "AI智能报告",
+        "description": "获取包含AI洞察的综合房产报告，邻里分析和专业建议，帮助做出更明智的决策。",
+        "icon": "RiFileTextFill",
         "image": {
           "src": "/imgs/features/3.png"
         }
       },
       {
-        "title": "技术指导",
-        "description": "获得专门支持并加入我们的开发者社区，确保您成功启动。",
-        "icon": "RiCodeFill",
+        "title": "专业视频导览",
+        "description": "创建令人惊叹的房产展示视频，AI旁白突出关键特色和阳光优势，完美用于营销。",
+        "icon": "RiVideoFill",
         "image": {
           "src": "/imgs/features/4.png"
         }
@@ -171,8 +171,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "如何使用 ShipAny 启动项目",
-    "description": "通过三个简单步骤启动您的 AI SaaS 创业项目：",
+    "title": "如何使用 HouseViz AI 分析房产",
+    "description": "通过四个简单步骤，将房产分析转化为可视化、数据驱动的体验：",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -180,29 +180,29 @@
     "text_align": "center",
     "items": [
       {
-        "title": "获取 ShipAny",
-        "description": "一次性付款购买 ShipAny。查收邮件获取代码和文档。",
+        "title": "选择房产",
+        "description": "在交互式地图上点击任何建筑开始分析。我们的系统会自动从公共数据源检测建筑信息。",
         "image": {
           "src": "/imgs/features/5.png"
         }
       },
       {
-        "title": "开始您的项目",
-        "description": "阅读文档并克隆 ShipAny 代码。开始构建您的 AI SaaS 创业项目。",
+        "title": "指定楼层详情",
+        "description": "输入您的目标楼层和建筑详情。我们的智能系统会根据可用建筑数据进行验证。",
         "image": {
           "src": "/imgs/features/6.png"
         }
       },
       {
-        "title": "定制您的项目",
-        "description": "使用您的数据和内容修改模板。满足特定的 AI 功能需求。",
+        "title": "体验3D可视化",
+        "description": "在沉浸式3D环境中探索房产，实时阳光模拟。调整时间线查看光线如何在一天和一年中影响空间。",
         "image": {
           "src": "/imgs/features/7.png"
         }
       },
       {
-        "title": "部署到生产环境",
-        "description": "通过几个步骤将项目部署到生产环境，立即开始服务客户。",
+        "title": "生成AI报告",
+        "description": "创建包含AI洞察的综合房产报告，邻里分析和专业建议，帮助做出自信的决策。",
         "image": {
           "src": "/imgs/features/8.png"
         }
@@ -211,62 +211,62 @@
   },
   "feature": {
     "name": "feature",
-    "title": "ShipAny 核心功能",
-    "description": "快速高效启动 AI SaaS 创业所需的一切。",
+    "title": "HouseViz AI 核心功能",
+    "description": "先进的房产分析工具，革新您理解和营销房地产的方式。",
     "items": [
       {
-        "title": "Next.js 模板",
-        "description": "生产就绪的 Next.js 模板，支持 SEO 友好结构和国际化。",
-        "icon": "RiNextjsFill"
+        "title": "交互式3D可视化",
+        "description": "在沉浸式3D环境中体验房产，实时阳光模拟，由Three.js和先进映射技术提供支持。",
+        "icon": "RiSunFill"
       },
       {
-        "title": "身份验证和支付",
-        "description": "集成 Google OAuth、一键登录和 Stripe 支付处理。",
-        "icon": "RiKey2Fill"
+        "title": "AI智能报告",
+        "description": "生成包含智能洞察的综合房产分析报告，邻里数据和专业建议。",
+        "icon": "RiFileTextFill"
       },
       {
-        "title": "数据基础设施",
-        "description": "内置 Supabase 集成，提供可靠和可扩展的数据存储。",
-        "icon": "RiDatabase2Line"
+        "title": "智能视频生成",
+        "description": "创建引人入胜的房产展示视频，AI旁白突出关键特色和阳光优势。",
+        "icon": "RiVideoFill"
       },
       {
-        "title": "一键部署",
-        "description": "无缝部署到 Vercel 或 Cloudflare，自动化设置。",
-        "icon": "RiCloudy2Fill"
+        "title": "户型图分析",
+        "description": "上传并分析户型图，了解空间关系，优化整个房产的自然采光。",
+        "icon": "RiHomeFill"
       },
       {
-        "title": "业务分析",
-        "description": "集成 Google Analytics 和 Search Console 追踪增长。",
-        "icon": "RiBarChart2Line"
+        "title": "位置智能分析",
+        "description": "全面的邻里分析，包括交通、学校、设施和市场洞察，由AI提供支持。",
+        "icon": "RiMapPinFill"
       },
       {
-        "title": "AI 就绪基础设施",
-        "description": "预配置 AI 集成，内置积分系统和 API 销售。",
-        "icon": "RiRobot2Line"
+        "title": "房地产CRM集成",
+        "description": "与热门的房地产平台和CRM系统无缝集成，实现 streamlined 工作流程管理。",
+        "icon": "RiBuildingFill"
       }
     ]
   },
   "stats": {
     "name": "stats",
-    "label": "统计",
-    "title": "用户喜爱 ShipAny",
-    "description": "因为它易于使用且快速发布。",
-    "icon": "FaRegHeart",
+    "label": "影响力",
+    "title": "革新房产分析",
+    "description": "使用先进的AI技术赋能更明智的房地产决策。",
+    "icon": "RiBarChart2Line",
     "items": [
       {
-        "title": "信任",
-        "label": "99+",
-        "description": "客户"
+        "title": "已分析房产",
+        "label": "50K+",
+        "description": "房产"
       },
       {
-        "title": "内置",
-        "label": "20+",
-        "description": "组件"
+        "title": "分析耗时",
+        "label": "30",
+        "description": "秒"
       },
       {
-        "title": "快速发布",
-        "label": "5",
-        "description": "分钟"
+        "title": "覆盖国家",
+        "label": "25+",
+        "description": "国家"
       }
     ]
   },
@@ -381,19 +381,19 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。通过丰富的模板和组件快速启动。",
+      "title": "HouseViz AI",
+      "description": "革命性的房产分析平台，将3D可视化与人工智能相结合，帮助您做出明智的房地产决策。",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "HouseViz AI"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny 保留所有权利。",
+    "copyright": "© 2025 • HouseViz AI 保留所有权利。",
     "nav": {
       "items": [
         {
-          "title": "关于",
+          "title": "产品",
           "children": [
             {
               "title": "功能特点",
@@ -402,53 +402,53 @@
             },
             {
               "title": "案例展示",
-              "url": "/#showcase",
+              "url": "/showcase",
               "target": "_self"
             },
             {
               "title": "定价",
-              "url": "/#pricing",
+              "url": "/pricing",
               "target": "_self"
             }
           ]
         },
         {
-          "title": "资源",
+          "title": "支持",
           "children": [
             {
               "title": "文档",
-              "url": "https://docs.shipany.ai",
-              "target": "_blank"
+              "url": "/docs",
+              "target": "_self"
             },
             {
-              "title": "组件",
-              "url": "https://shipany.ai/components",
-              "target": "_blank"
+              "title": "常见问题",
+              "url": "/#faq",
+              "target": "_self"
             },
             {
-              "title": "模板",
-              "url": "https://shipany.ai/templates",
-              "target": "_blank"
+              "title": "联系我们",
+              "url": "/contact",
+              "target": "_self"
             }
           ]
         },
         {
-          "title": "友情链接",
+          "title": "公司",
           "children": [
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
+              "title": "关于我们",
+              "url": "/about",
+              "target": "_self"
             },
             {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
+              "title": "职业机会",
+              "url": "/careers",
+              "target": "_self"
             },
             {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "博客",
+              "url": "/blog",
+              "target": "_self"
             }
           ]
         }
@@ -457,27 +457,27 @@
     "social": {
       "items": [
         {
-          "title": "X",
+          "title": "Twitter",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
+          "url": "https://twitter.com/housevizai",
           "target": "_blank"
         },
         {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
+          "title": "LinkedIn",
+          "icon": "RiLinkedinFill",
+          "url": "https://linkedin.com/company/housevizai",
           "target": "_blank"
         },
         {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
+          "title": "YouTube",
+          "icon": "RiYoutubeFill",
+          "url": "https://youtube.com/@housevizai",
           "target": "_blank"
         },
         {
           "title": "邮箱",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
+          "url": "mailto:hello@houseviz.ai",
           "target": "_self"
         }
       ]
@@ -491,6 +491,10 @@
         {
           "title": "服务条款",
           "url": "/terms-of-service"
+        },
+        {
+          "title": "数据使用",
+          "url": "/data-usage"
         }
       ]
     }
