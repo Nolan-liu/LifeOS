@@ -9,6 +9,33 @@
 - **许可证**: BSD 3-Clause License
 - **开源免费**: 是
 - **兼容性**: 兼容 Mapbox GL JS API
+- **Maptiler集成**: 支持Maptiler Cloud服务
+- **Street样式**: 使用Maptiler Streets v2样式
+
+## 🔑 Maptiler 配置
+
+### 环境变量
+```bash
+# 在 .env.local 文件中配置您的Maptiler API Key
+NEXT_PUBLIC_MAPTILER_API_KEY=your_maptile_api_key_here
+```
+
+**获取API Key:**
+1. 访问 [Maptiler Cloud](https://cloud.maptiler.com/account/keys/)
+2. 注册/登录账户
+3. 创建新的API Key
+4. 复制Key到 `.env.local` 文件中
+
+### 样式配置
+- **当前样式**: `streets-v2` (街道地图)
+- **备用样式**: `https://demotiles.maplibre.org/style.json` (演示样式)
+
+### 其他可用样式
+- `satellite` - 卫星图像
+- `terrain` - 地形图
+- `winter` - 冬季主题
+- `basic-v2` - 基础地图
+- `bright-v2` - 明亮主题
 
 ### 🔧 安装的文件
 - ✅ `maplibre-gl` - 主库
@@ -43,8 +70,15 @@ map.addControl(new maplibregl.ScaleControl(), 'bottom-left');
 ## 🌍 访问演示页面
 
 你可以访问以下路径查看Maplibre GL JS的演示：
-- **英文**: `http://localhost:3000/maplibre-demo`
-- **中文**: `http://localhost:3000/zh/maplibre-demo`
+- **英文**: `http://localhost:3000/maplibre`
+- **中文**: `http://localhost:3000/zh/maplibre`
+
+### 🎨 演示功能
+
+- **多城市展示**: 北京、上海、广州、深圳地图
+- **样式选择器**: 实时切换不同Maptiler样式
+- **交互式地图**: 支持缩放、平移、全屏等操作
+- **多语言支持**: 英文和中文界面
 
 ## 🎯 特性
 

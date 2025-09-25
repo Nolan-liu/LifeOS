@@ -133,6 +133,6 @@
       "compatible": "Compatible with Mapbox GL JS API"
     },
     "usage_example": "Basic Usage Example:",
-    "code_example": "import maplibregl from 'maplibre-gl';\n\nconst map = new maplibregl.Map({\n  container: 'map',\n  style: 'https://demotiles.maplibre.org/style.json',\n  center: [0, 0],\n  zoom: 1\n});"
+    "code_example": "import maplibregl from \"maplibre-gl\";\n\nconst map = new maplibregl.Map({\n  container: \"maplibre-container\",\n  style: \"https://demotiles.maplibre.org/style.json\",\n  center: [0, 0],\n  zoom: 1\n});"
   }
 }

@@ -18,6 +18,11 @@
           "icon": "RiSparkling2Line"
         },
         {
+          "title": "Maplibre",
+          "url": "/maplibre",
+          "icon": "RiMapLine"
+        },
+        {
           "title": "定价",
           "url": "/pricing",
           "icon": "RiMoneyDollarCircleLine"
