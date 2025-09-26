@@ -52,9 +52,9 @@ export default function SimpleMap({
         console.warn('NEXT_PUBLIC_MAPTILER_API_KEY is not defined');
       }
 
-      // 使用Maptiler的3D样式，包含建筑物数据
+      // 使用Maptiler的街道样式，包含建筑物数据
       const styleUrl = maptilerApiKey
-        ? `https://api.maptiler.com/maps/3d/style.json?key=${maptilerApiKey}`
+        ? `https://api.maptiler.com/maps/streets-v2/style.json?key=${maptilerApiKey}`
         : 'https://demotiles.maplibre.org/style.json'; // 回退到演示样式
 
       map.current = new maplibregl.Map({
