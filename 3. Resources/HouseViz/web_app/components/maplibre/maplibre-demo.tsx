@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import SimpleMap from "@/components/maplibre/simple-map";
 import MaplibreErrorBoundary from "@/components/maplibre/error-boundary";
@@ -18,8 +18,27 @@ export default function MaplibreDemo({ apiKey }: MaplibreDemoProps) {
   const t = useTranslations();
   const [selectedBuilding, setSelectedBuilding] = useState<any>(null);
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
-  const [isAnalysisMode, setIsAnalysisMode] = useState(false);
   const [currentZoom, setCurrentZoom] = useState(10);
+  const zoomChangeTimeout = useRef<NodeJS.Timeout | null>(null);
+  const isSelectionEnabled = useMemo(() => currentZoom >= 15, [currentZoom]);
+
+  const handleZoomChange = useCallback((zoomValue: number) => {
+    if (zoomChangeTimeout.current) {
+      clearTimeout(zoomChangeTimeout.current);
+    }
+    zoomChangeTimeout.current = setTimeout(() => {
+      setCurrentZoom(zoomValue);
+      zoomChangeTimeout.current = null;
+    }, 30);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (zoomChangeTimeout.current) {
+        clearTimeout(zoomChangeTimeout.current);
+      }
+    };
+  }, []);
 
   const handleBuildingClick = useCallback((feature: any) => {
     console.log('Building selected:', feature);
@@ -43,13 +62,6 @@ export default function MaplibreDemo({ apiKey }: MaplibreDemoProps) {
     alert(`开始分析建筑物: ${feature.properties?.name || 'Unknown Building'}`);
   }, []);
 
-  const toggleAnalysisMode = () => {
-    setIsAnalysisMode(!isAnalysisMode);
-    if (!isAnalysisMode) {
-      setSelectedBuilding(null); // 清除选中状态
-    }
-  };
-
   const minZoomForSelection = 15;
 
   return (
@@ -66,9 +78,10 @@ export default function MaplibreDemo({ apiKey }: MaplibreDemoProps) {
           geolocatePosition="bottom-right"
           scalePosition="bottom-left"
           showFullscreen={false}
-          enableBuildingSelection={isAnalysisMode}
+          enableBuildingSelection={false}
           minZoomForSelection={minZoomForSelection}
           onBuildingClick={handleBuildingClick}
+          onZoomChange={handleZoomChange}
         />
       </MaplibreErrorBoundary>
 
@@ -105,30 +118,30 @@ export default function MaplibreDemo({ apiKey }: MaplibreDemoProps) {
 
       {/* 左下角：分析模式切换 */}
       <div className="absolute bottom-4 left-4 z-10">
-        <div className="bg-white/90 backdrop-blur rounded-lg shadow border p-2">
-          <Button 
-            variant={isAnalysisMode ? "default" : "outline"}
-            size="sm"
-            onClick={toggleAnalysisMode}
-            className="flex items-center gap-2"
-          >
+        <div className="bg-white/90 backdrop-blur rounded-lg shadow border p-3 max-w-xs space-y-2">
+          <div className="flex items-center gap-2 text-sm font-medium">
             <Settings className="h-4 w-4" />
-            {isAnalysisMode ? '退出分析模式' : '建筑物分析模式'}
-          </Button>
-          
-          {isAnalysisMode && (
-            <div className="mt-2 text-xs text-gray-600 max-w-48">
-              <Badge variant="secondary" className="mb-1">
-                分析模式已启用
-              </Badge>
-              <p>放大到 {minZoomForSelection}+ 级别并点击建筑物进行分析</p>
-              {currentZoom < minZoomForSelection && (
-                <p className="text-orange-600 mt-1">
-                  当前缩放级别: {currentZoom.toFixed(1)} (需要 {minZoomForSelection}+)
-                </p>
-              )}
+            建筑物分析提示
+          </div>
+          <div className="text-xs text-gray-600 leading-relaxed">
+            <p>缩放至 {minZoomForSelection}+ 级别后，地图将自动进入建筑物点选模式。</p>
+            <p>鼠标移动到建筑上会出现「小手」光标，点击即可查看属性。</p>
+          </div>
+          <div className="border-t pt-2 text-xs">
+            <div className="flex justify-between">
+              <span className="text-gray-500">当前缩放</span>
+              <span className="font-medium">{currentZoom.toFixed(1)}</span>
             </div>
-          )}
+            {currentZoom < minZoomForSelection ? (
+              <div className="mt-1 text-orange-600">
+                请继续放大至 {minZoomForSelection}+ 级别以启用选择。
+              </div>
+            ) : (
+              <Badge variant="secondary" className="mt-2">
+                点选模式已激活
+              </Badge>
+            )}
+          </div>
         </div>
       </div>
 

@@ -20,6 +20,7 @@ interface SimpleMapProps {
   onBuildingClick?: (feature: any) => void;
   enableBuildingSelection?: boolean;
   minZoomForSelection?: number;
+  onZoomChange?: (zoom: number) => void;
 }
 
 export default function SimpleMap({
@@ -37,7 +38,8 @@ export default function SimpleMap({
   onMapReady,
   onBuildingClick,
   enableBuildingSelection = false,
-  minZoomForSelection = 15,
+  minZoomForSelection = 12,
+  onZoomChange,
 }: SimpleMapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -92,12 +94,6 @@ export default function SimpleMap({
       // 监听地图加载事件
       map.current.on('load', () => {
         console.log('Map loaded successfully with style:', styleUrl);
-        
-        // 设置建筑物选择功能
-        if (enableBuildingSelection) {
-          setupBuildingSelection();
-        }
-        
         onMapReady?.(map.current!);
       });
 
@@ -105,68 +101,6 @@ export default function SimpleMap({
       map.current.on('error', (e) => {
         console.error('Map error:', e);
       });
-
-      // 设置建筑物选择功能
-      const setupBuildingSelection = () => {
-        if (!map.current) return;
-
-        // 监听地图点击事件
-        map.current.on('click', (e) => {
-          const currentZoom = map.current?.getZoom() || 0;
-          
-          // 只有在足够的缩放级别才启用建筑物选择
-          if (currentZoom < minZoomForSelection) {
-            console.log(`Zoom level ${currentZoom} is below minimum ${minZoomForSelection} for building selection`);
-            return;
-          }
-
-          // 查询点击位置的建筑物要素
-          const features = map.current!.queryRenderedFeatures(e.point, {
-            layers: ['building', 'building-3d', 'building-extrusion'] // 可能的建筑物图层名称
-          });
-
-          if (features.length > 0) {
-            const buildingFeature = features[0];
-            console.log('Building clicked:', buildingFeature);
-            
-            // 调用回调函数
-            onBuildingClick?.(buildingFeature);
-          } else {
-            console.log('No building found at clicked location');
-          }
-        });
-
-        // 监听缩放变化，动态显示建筑物选择提示
-        map.current.on('zoom', () => {
-          const currentZoom = map.current?.getZoom() || 0;
-          const container = map.current?.getContainer();
-          
-          if (container) {
-            if (currentZoom >= minZoomForSelection) {
-              container.style.cursor = 'crosshair';
-            } else {
-              container.style.cursor = '';
-            }
-          }
-        });
-
-        // 鼠标悬停建筑物时改变光标
-        map.current.on('mouseenter', 'building', () => {
-          const currentZoom = map.current?.getZoom() || 0;
-          if (currentZoom >= minZoomForSelection) {
-            map.current!.getCanvas().style.cursor = 'pointer';
-          }
-        });
-
-        map.current.on('mouseleave', 'building', () => {
-          const currentZoom = map.current?.getZoom() || 0;
-          if (currentZoom >= minZoomForSelection) {
-            map.current!.getCanvas().style.cursor = 'crosshair';
-          } else {
-            map.current!.getCanvas().style.cursor = '';
-          }
-        });
-      };
     }
 
     return () => {
@@ -175,7 +109,169 @@ export default function SimpleMap({
         map.current = null;
       }
     };
-  }, [center, zoom]);
+  }, [center, zoom, apiKey]);
+
+  useEffect(() => {
+    const mapInstance = map.current;
+    if (!mapInstance) {
+      return;
+    }
+
+    const buildingLayers = [
+      'building',
+      'building-3d',
+      'building-extrusion',
+      'building-fill',
+      'buildings',
+      'building-outline',
+      'building-top',
+      'building-wall',
+      'building-height',
+      'building-footprint'
+    ];
+
+    let activeBuildingLayers: string[] = [];
+    let lastReportedZoom = Number.NaN;
+    let selectionEnabledState = false;
+
+    const computeSelectionEnabled = (zoomValue: number) => {
+      return enableBuildingSelection || zoomValue >= minZoomForSelection;
+    };
+
+    const refreshActiveLayers = () => {
+      activeBuildingLayers = buildingLayers.filter(layerId => {
+        try {
+          return Boolean(mapInstance.getLayer(layerId));
+        } catch {
+          return false;
+        }
+      });
+    };
+
+    const publishZoomIfNeeded = () => {
+      const zoomValue = mapInstance.getZoom() || 0;
+      if (!Number.isNaN(zoomValue) && Math.abs(zoomValue - lastReportedZoom) >= 0.01) {
+        lastReportedZoom = zoomValue;
+        onZoomChange?.(parseFloat(zoomValue.toFixed(2)));
+      }
+      return zoomValue;
+    };
+
+    const updateCursorState = (zoomValue: number) => {
+      const enabled = computeSelectionEnabled(zoomValue);
+      if (enabled !== selectionEnabledState) {
+        selectionEnabledState = enabled;
+        mapInstance.getCanvas().style.cursor = enabled ? 'crosshair' : '';
+      }
+    };
+
+    const handleMoveOrZoom = () => {
+      const zoomValue = publishZoomIfNeeded();
+      updateCursorState(zoomValue);
+    };
+
+    const handleMouseMove = (e: maplibregl.MapMouseEvent & maplibregl.EventData) => {
+      const zoomValue = mapInstance.getZoom() || 0;
+      if (!computeSelectionEnabled(zoomValue)) {
+        mapInstance.getCanvas().style.cursor = '';
+        return;
+      }
+
+      if (activeBuildingLayers.length === 0) {
+        refreshActiveLayers();
+      }
+
+      const hoverFeatures = mapInstance.queryRenderedFeatures(e.point, {
+        layers: activeBuildingLayers
+      });
+
+      mapInstance.getCanvas().style.cursor = hoverFeatures.length > 0 ? 'pointer' : 'crosshair';
+    };
+
+    const handleMouseLeave = () => {
+      const zoomValue = mapInstance.getZoom() || 0;
+      if (computeSelectionEnabled(zoomValue)) {
+        mapInstance.getCanvas().style.cursor = 'crosshair';
+      } else {
+        mapInstance.getCanvas().style.cursor = '';
+      }
+    };
+
+    const handleMapClick = (e: maplibregl.MapMouseEvent & maplibregl.EventData) => {
+      const zoomValue = mapInstance.getZoom() || 0;
+      if (!computeSelectionEnabled(zoomValue)) {
+        console.log(`Zoom level ${zoomValue.toFixed(2)} is below minimum ${minZoomForSelection} for building selection`);
+        return;
+      }
+
+      if (activeBuildingLayers.length === 0) {
+        refreshActiveLayers();
+      }
+
+      const allFeatures = mapInstance.queryRenderedFeatures(e.point);
+      if (allFeatures.length === 0) {
+        console.log('No features found at clicked location');
+      } else {
+        console.log('All features at click point:', allFeatures.map(f => ({ layer: f.layer?.id, properties: f.properties })));
+      }
+
+      const features = mapInstance.queryRenderedFeatures(e.point, {
+        layers: activeBuildingLayers
+      });
+
+      if (features.length > 0) {
+        onBuildingClick?.(features[0]);
+        return;
+      }
+
+      const fallbackFeatures = allFeatures.filter(feature =>
+        feature.properties?.building ||
+        feature.properties?.['building:levels'] ||
+        feature.properties?.height ||
+        feature.layer?.id?.toLowerCase().includes('building')
+      );
+
+      if (fallbackFeatures.length > 0) {
+        onBuildingClick?.(fallbackFeatures[0]);
+      } else {
+        console.log('No building found at clicked location');
+      }
+    };
+
+    const attachHandlers = () => {
+      refreshActiveLayers();
+      handleMoveOrZoom();
+
+      mapInstance.on('move', handleMoveOrZoom);
+      mapInstance.on('zoom', handleMoveOrZoom);
+      mapInstance.on('zoomend', handleMoveOrZoom);
+      mapInstance.on('moveend', handleMoveOrZoom);
+      mapInstance.on('styledata', () => {
+        refreshActiveLayers();
+        handleMoveOrZoom();
+      });
+      mapInstance.on('mousemove', handleMouseMove);
+      mapInstance.on('mouseleave', handleMouseLeave);
+      mapInstance.on('click', handleMapClick);
+    };
+
+    if (mapInstance.isStyleLoaded()) {
+      attachHandlers();
+    } else {
+      mapInstance.once('load', attachHandlers);
+    }
+
+    return () => {
+      mapInstance.off('move', handleMoveOrZoom);
+      mapInstance.off('zoom', handleMoveOrZoom);
+      mapInstance.off('zoomend', handleMoveOrZoom);
+      mapInstance.off('moveend', handleMoveOrZoom);
+      mapInstance.off('styledata', refreshActiveLayers);
+      mapInstance.off('mousemove', handleMouseMove);
+      mapInstance.off('mouseleave', handleMouseLeave);
+      mapInstance.off('click', handleMapClick);
+    };
+  }, [enableBuildingSelection, minZoomForSelection, onBuildingClick, onZoomChange]);
 
   return (
     <div className="relative w-full h-full">
