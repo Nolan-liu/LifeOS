@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "45e33fe8561c7c67",
+        "id": "5cf40308b881ec69",
         "type": "tabs",
         "children": [
           {
-            "id": "3c55df1643ec0c6a",
+            "id": "6a4290f68bb23b9b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/2025/Daily/10/2025-10-10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-10-10"
             }
           }
         ]
@@ -108,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 243.5
   },
   "right": {
     "id": "e909704c2c67d329",
@@ -212,8 +226,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "5d71a4da793d6ac4",
+  "active": "6a4290f68bb23b9b",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/10/2025-10-10.md",
+    "0. PeriodicNotes/2025/Daily/10",
     "3. Resources/HouseViz/web_app/docs/HouseViz AI Feasibility Analysis Report (Deep Edition).md",
     "3. Resources/HouseViz/web_app/docs/Technical solutions.md",
     "3. Resources/HouseViz/web_app/docs/HouseViz.ai 可行性分析报告（深度版）.md",
@@ -227,7 +243,6 @@
     "3. Resources/HouseViz/web_app/node_modules/@supabase",
     "3. Resources/HouseViz/web_app/node_modules/@stripe",
     "3. Resources/HouseViz/web_app/node_modules/@openrouter",
-    "3. Resources/HouseViz/web_app/node_modules/@radix-ui",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
@@ -259,7 +274,6 @@
     "-1. Capture/Advice for ambitious 19 year olds.md",
     "-1. Capture/README.md",
     "-1. Capture/Quality software deserves your hard‑earned cash.md",
-    "-1. Capture/Predicting The Future.md",
     "HOME.canvas",
     "未命名.canvas",
     "主页.canvas",
