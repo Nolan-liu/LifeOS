@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5cf40308b881ec69",
+        "id": "46dc765de9720375",
         "type": "tabs",
         "children": [
           {
-            "id": "6a4290f68bb23b9b",
+            "id": "c6b6adb210a46442",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/10/2025-10-10.md",
+                "file": "0. PeriodicNotes/2025/Daily/10/2025-10-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-10"
+              "title": "2025-10-11"
             }
           }
         ]
@@ -226,8 +226,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "6a4290f68bb23b9b",
+  "active": "c6b6adb210a46442",
   "lastOpenFiles": [
+    "0. PeriodicNotes/Templates/Daily.md",
+    "0. PeriodicNotes/2025/Daily/10/2025-10-11.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-10.md",
     "0. PeriodicNotes/2025/Daily/10",
     "3. Resources/HouseViz/web_app/docs/HouseViz AI Feasibility Analysis Report (Deep Edition).md",
@@ -272,8 +274,6 @@
     "0. PeriodicNotes/Templates/Yearly.md",
     "4. Archives/族谱.md",
     "-1. Capture/Advice for ambitious 19 year olds.md",
-    "-1. Capture/README.md",
-    "-1. Capture/Quality software deserves your hard‑earned cash.md",
     "HOME.canvas",
     "未命名.canvas",
     "主页.canvas",

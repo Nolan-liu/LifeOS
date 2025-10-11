@@ -41,7 +41,6 @@
 	- [ ] +1
 	- [ ] +1
 	- [ ] +1
-- [ ] Take vitamins
 - [ ] Jingang gong yesterday
 - [ ] Climbing stairs yesterday
 
