@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "46dc765de9720375",
+        "id": "9c66afbb0e8a0913",
         "type": "tabs",
         "children": [
           {
-            "id": "c6b6adb210a46442",
+            "id": "3fe31753c56de044",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/10/2025-10-11.md",
+                "file": "0. PeriodicNotes/2025/Daily/10/2025-10-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-11"
+              "title": "2025-10-13"
             }
           }
         ]
@@ -226,10 +226,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "c6b6adb210a46442",
+  "active": "3fe31753c56de044",
   "lastOpenFiles": [
-    "0. PeriodicNotes/Templates/Daily.md",
+    "0. PeriodicNotes/2025/Daily/10/2025-10-13.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-11.md",
+    "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-10.md",
     "0. PeriodicNotes/2025/Daily/10",
     "3. Resources/HouseViz/web_app/docs/HouseViz AI Feasibility Analysis Report (Deep Edition).md",
@@ -273,7 +274,6 @@
     "0. PeriodicNotes/Templates/Ideas.md",
     "0. PeriodicNotes/Templates/Yearly.md",
     "4. Archives/族谱.md",
-    "-1. Capture/Advice for ambitious 19 year olds.md",
     "HOME.canvas",
     "未命名.canvas",
     "主页.canvas",
