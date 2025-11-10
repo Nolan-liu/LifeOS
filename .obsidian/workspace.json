@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9c66afbb0e8a0913",
+        "id": "bebbf18e7ca62fa6",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe31753c56de044",
+            "id": "bdb441a4022dda4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/10/2025-10-30.md",
+                "file": "TASK.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-30"
+              "title": "TASK"
             }
           }
         ]
@@ -226,10 +226,16 @@
       "templates:插入模板": false
     }
   },
-  "active": "3fe31753c56de044",
+  "active": "bdb441a4022dda4e",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/10/2025-10-23.md",
+    "README.md",
+    "TASK.md",
+    "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
+    "2. Areas/personal-productivity/review/Daily/Daily.README.md",
+    "2. Areas/personal-productivity/review/Daily/未命名.base",
+    "2. Areas/personal-productivity/personal-productivity.README.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-30.md",
+    "0. PeriodicNotes/2025/Daily/10/2025-10-23.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-22.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-21.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-13.md",
@@ -249,7 +255,6 @@
     "3. Resources/HouseViz/web_app/node_modules/@tabler",
     "3. Resources/HouseViz/web_app/node_modules/@supabase",
     "3. Resources/HouseViz/web_app/node_modules/@stripe",
-    "3. Resources/HouseViz/web_app/node_modules/@openrouter",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
@@ -269,11 +274,6 @@
     "0. PeriodicNotes/2025/Weekly/2025-W37.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-11.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-12.md",
-    "3. Resources/media/地理自媒体.md",
-    "3. Resources/media/media.README.md",
-    "-1. Capture/地理自媒体.md",
     "HOME.canvas",
     "未命名.canvas",
     "主页.canvas",
