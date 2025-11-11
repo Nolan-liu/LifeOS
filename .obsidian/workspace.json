@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/11/2025-11-11.md",
+                "file": "2. Areas/personal-productivity/habits/habits.README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-11"
+              "title": "habits.README"
+            }
+          },
+          {
+            "id": "e0ca0fd9f3f7cf5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/personal-productivity/habits/habits.README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "habits.README"
+            }
+          },
+          {
+            "id": "38f447231e1b96a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/Templates/Daily.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Daily"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,16 +275,21 @@
       "templates:插入模板": false
     }
   },
-  "active": "bdb441a4022dda4e",
+  "active": "38f447231e1b96a4",
   "lastOpenFiles": [
-    "TASK.md",
+    "2. Areas/personal-productivity/habits/两周戒游戏但不压抑的微计划.md",
+    "2. Areas/personal-productivity/habits/habits.README.md",
+    "2. Areas/personal-productivity/habits/熬夜玩游戏的心理机制.md",
+    "2. Areas/health/mental/mental.README.md",
+    "2. Areas/personal-productivity/personal-productivity.README.md",
+    "3. Resources/photography/photography.README.md",
     "0. PeriodicNotes/2025/Daily/11/2025-11-11.md",
+    "TASK.md",
     "0. PeriodicNotes/2025/Daily/11",
     "README.md",
     "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
     "2. Areas/personal-productivity/review/Daily/Daily.README.md",
     "2. Areas/personal-productivity/review/Daily/未命名.base",
-    "2. Areas/personal-productivity/personal-productivity.README.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-30.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-23.md",
     "0. PeriodicNotes/2025/Daily/10/2025-10-22.md",
@@ -269,11 +323,6 @@
     "3. Resources/HouseViz/web_app/README.md",
     "3. Resources/HouseViz/shipany_v2/README.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-17.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-16.md",
-    "3. Resources/read/read.README.md",
-    "0. PeriodicNotes/2025/Weekly/2025-W38.md",
-    "0. PeriodicNotes/2025/Weekly/2025-W37.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
     "HOME.canvas",
     "未命名.canvas",
     "主页.canvas",
