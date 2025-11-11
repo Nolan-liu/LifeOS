@@ -11,7 +11,7 @@
 - [ ] 🐸Task3；最小执行动作；时限；奖励；可能阻碍 📅 <% tp.date.now("YYYY-MM-DD") %> 🔺
 
 
-- **<% tp.date.now("YYYY-MM-DD") %> **📝 **日复盘**  #personal-productivity/review/Daily ：
+- **<% tp.date.now("YYYY-MM-DD") %> 📝 日复盘**  #personal-productivity/review/Daily ：
 	- 今日青蛙数量： / 3  
 	- 实际完成：
 	- 完成率： %  
@@ -28,7 +28,7 @@
 	- 明日优先青蛙候选：
 	- 调整/改进措施：
 	- 
-- 🎯 **微计划复盘打卡**  #personal-productivity/habits
+- 🎯 **<% tp.date.now("YYYY-MM-DD") %>微计划复盘打卡**  #personal-productivity/habits
 
 	- 😌 **放松方式替代游戏了吗？**（✅ 是 / ❌ 否）  
 	 具体做了什么？（如泡脚听播客、散步、看vlog等）

@@ -61,9 +61,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/Templates/Daily.md",
+                "file": "0. PeriodicNotes/2025/Daily/11/2025-11-11.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily"
+              "title": "2025-11-11"
             }
           }
         ],
@@ -277,6 +277,7 @@
   },
   "active": "38f447231e1b96a4",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/11/2025-11-12.md",
     "0. PeriodicNotes/2025/Daily/11/2025-11-11.md",
     "0. PeriodicNotes/Templates/Daily.md",
     "2. Areas/personal-productivity/habits/两周戒游戏但不压抑的微计划.md",
@@ -322,7 +323,6 @@
     "3. Resources/HouseViz/web_app/public/imgs/users/12.png",
     "3. Resources/HouseViz/web_app/README.md",
     "3. Resources/HouseViz/shipany_v2/README.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-17.md",
     "HOME.canvas",
     "未命名.canvas",
     "主页.canvas",
