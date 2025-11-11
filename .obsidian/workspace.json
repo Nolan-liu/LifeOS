@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TASK.md",
+                "file": "0. PeriodicNotes/2025/Daily/11/2025-11-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TASK"
+              "title": "2025-11-11"
             }
           }
         ]
@@ -228,8 +228,10 @@
   },
   "active": "bdb441a4022dda4e",
   "lastOpenFiles": [
-    "README.md",
     "TASK.md",
+    "0. PeriodicNotes/2025/Daily/11/2025-11-11.md",
+    "0. PeriodicNotes/2025/Daily/11",
+    "README.md",
     "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
     "2. Areas/personal-productivity/review/Daily/Daily.README.md",
     "2. Areas/personal-productivity/review/Daily/未命名.base",
@@ -254,7 +256,6 @@
     "3. Resources/HouseViz/web_app/node_modules/@tanstack",
     "3. Resources/HouseViz/web_app/node_modules/@tabler",
     "3. Resources/HouseViz/web_app/node_modules/@supabase",
-    "3. Resources/HouseViz/web_app/node_modules/@stripe",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
@@ -273,7 +274,6 @@
     "0. PeriodicNotes/2025/Weekly/2025-W38.md",
     "0. PeriodicNotes/2025/Weekly/2025-W37.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-10.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-09.md",
     "HOME.canvas",
     "未命名.canvas",
     "主页.canvas",
