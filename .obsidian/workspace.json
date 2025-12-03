@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "2025-11-13"
             }
+          },
+          {
+            "id": "6498ecd3e8cf0c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. PeriodicNotes/2025/Daily/11/2025-11-13.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-11-13"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,7 +251,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "bdb441a4022dda4e",
+  "active": "6498ecd3e8cf0c02",
   "lastOpenFiles": [
     "2. Areas/personal-productivity/habits/habits.README.md",
     "0. PeriodicNotes/2023/Daily/06/2023-06-01.md",
