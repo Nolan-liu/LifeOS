@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "2025-12-08"
             }
+          },
+          {
+            "id": "3568011c5c5868c3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +238,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "b783f505cd6b87ca",
+  "active": "3568011c5c5868c3",
   "lastOpenFiles": [
     "0. PeriodicNotes/2025/Daily/12/2025-12-03.md",
     "0. PeriodicNotes/2025/Daily/11/2025-11-13.md",
