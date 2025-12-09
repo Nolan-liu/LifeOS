@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b783f505cd6b87ca",
+            "id": "3568011c5c5868c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-08.md",
+                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-08"
-            }
-          },
-          {
-            "id": "3568011c5c5868c3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.10.6"
+              "title": "2025-12-09"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:personal-productivity#self-control",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +97,8 @@
               "title": "LifeOS"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d4f73cbc47977f75",
@@ -240,13 +228,14 @@
   },
   "active": "3568011c5c5868c3",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/12/2025-12-09.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-08.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-03.md",
     "0. PeriodicNotes/2025/Daily/11/2025-11-13.md",
     "2. Areas/personal-productivity/创建目标 + 执行任务--科学法则.md",
     "2. Areas/personal-productivity/self-control/self-control.README.md",
     "2. Areas/personal-productivity/self-control",
     "2. Areas/personal-productivity/personal-productivity.README.md",
-    "0. PeriodicNotes/2025/Daily/12/2025-12-08.md",
     "0. PeriodicNotes/2025/Weekly/2025-W50.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-04.md",
     "0. PeriodicNotes/2025/Daily/12",
