@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-12.md",
+                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-12"
+              "title": "2025-12-15"
             }
           }
         ]
@@ -228,8 +228,9 @@
   },
   "active": "3568011c5c5868c3",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/12/2025-12-11.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-12.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-15.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-11.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-10.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-09.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-08.md",
@@ -257,7 +258,6 @@
     "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
     "2. Areas/personal-productivity/review/Daily/Daily.README.md",
     "2. Areas/personal-productivity/review/Daily/未命名.base",
-    "0. PeriodicNotes/2025/Daily/10/2025-10-30.md",
     "0. PeriodicNotes/2025/Daily/10",
     "3. Resources/HouseViz/web_app/docs",
     "3. Resources/HouseViz/web_app/node_modules/@types",
