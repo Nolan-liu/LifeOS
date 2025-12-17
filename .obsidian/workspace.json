@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac4fc93429b77ccb",
+        "id": "7ce31694aeb07416",
         "type": "tabs",
         "children": [
           {
-            "id": "3568011c5c5868c3",
+            "id": "615dcf5b0af90e41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-16.md",
+                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-16"
+              "title": "2025-12-17"
             }
           }
         ]
@@ -226,10 +226,11 @@
       "templates:插入模板": false
     }
   },
-  "active": "3568011c5c5868c3",
+  "active": "615dcf5b0af90e41",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2025/Daily/12/2025-12-15.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-17.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-16.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-15.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-12.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-11.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-10.md",
@@ -256,7 +257,6 @@
     "TASK.md",
     "0. PeriodicNotes/2025/Daily/11",
     "README.md",
-    "2. Areas/personal-productivity/learning-skills/learning-skills.README.md",
     "2. Areas/personal-productivity/review/Daily/未命名.base",
     "0. PeriodicNotes/2025/Daily/10",
     "3. Resources/HouseViz/web_app/docs",
