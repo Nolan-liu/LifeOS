@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "19e543993ffd86ab",
+        "id": "ee0fe4f2ee86352d",
         "type": "tabs",
         "children": [
           {
-            "id": "7569792d592976ca",
+            "id": "bdc31d686c93a93e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/health/disease/4岁男童皮肤科疾病推断报告-Gemini20250506.md",
+                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4岁男童皮肤科疾病推断报告-Gemini20250506"
-            }
-          },
-          {
-            "id": "2b7627a7e6d6390f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/health/disease/5岁男童皮肤科疾病推断-ChatGPT-20251222.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "5岁男童皮肤科疾病推断-ChatGPT-20251222"
+              "title": "2025-12-23"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,11 +226,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "2b7627a7e6d6390f",
+  "active": "bdc31d686c93a93e",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2025/Daily/12/2025-12-22.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-23.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-19.md",
     "2. Areas/health/disease/4岁男童皮肤科疾病推断报告-Gemini20250506.md",
     "2. Areas/health/disease/5岁男童皮肤科疾病推断-ChatGPT-20251222.md",
-    "0. PeriodicNotes/2025/Daily/12/2025-12-19.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-18.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-18.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-17.md",
@@ -280,8 +257,6 @@
     "0. PeriodicNotes/2025/Daily/12/2025-12-04.md",
     "0. PeriodicNotes/2025/Daily/12",
     "2. Areas/personal-productivity/habits/habits.README.md",
-    "0. PeriodicNotes/2023/Daily/06/2023-06-01.md",
-    "0. PeriodicNotes/2025/Daily/11/2025-11-12.md",
     "0. PeriodicNotes/2025/Daily/11",
     "2. Areas/personal-productivity/review/Daily/未命名.base",
     "0. PeriodicNotes/2025/Daily/10",
