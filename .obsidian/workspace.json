@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2025/Daily/12/2025-12-29.md",
+                "file": "0. PeriodicNotes/2026/Daily/01/2026-01-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-29"
+              "title": "2026-01-13"
             }
           }
         ]
@@ -228,12 +228,17 @@
   },
   "active": "648716c81db62741",
   "lastOpenFiles": [
+    "0. PeriodicNotes/Templates/Daily.md",
+    "0. PeriodicNotes/2026/Daily/01/2026-01-13.md",
+    "0. PeriodicNotes/2025/Daily/12/2025-12-29.md",
+    "0. PeriodicNotes/2026/Daily/01",
+    "0. PeriodicNotes/2026/Daily",
+    "0. PeriodicNotes/2026",
     "0. PeriodicNotes/2025/Daily/12/2025-12-23.md",
     "2. Areas/health/disease/如何使用他克莫司与保湿霜.md",
     "2. Areas/health/disease/disease.README.md",
     "2. Areas/health/disease/他克莫司与保湿霜.md",
     "2. Areas/health/disease/5岁男童皮肤科疾病推断-ChatGPT-20251222.md",
-    "0. PeriodicNotes/2025/Daily/12/2025-12-29.md",
     "2. Areas/health/disease/5岁男童皮肤科用药调整-ChatGPT-20251226.md",
     "2. Areas/health/disease/男童皮肤科疾病推断及治疗20250808.md",
     "2. Areas/health/disease/4岁男童皮肤科疾病推断报告-Gemini20250506.md",
@@ -253,8 +258,6 @@
     "0. PeriodicNotes/2025/Daily/12/2025-12-10.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-09.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-08.md",
-    "0. PeriodicNotes/2025/Daily/12/2025-12-03.md",
-    "0. PeriodicNotes/2025/Daily/11/2025-11-13.md",
     "2. Areas/personal-productivity/self-control",
     "0. PeriodicNotes/2025/Daily/12",
     "0. PeriodicNotes/2025/Daily/11",
@@ -262,9 +265,6 @@
     "0. PeriodicNotes/2025/Daily/10",
     "3. Resources/HouseViz/web_app/docs",
     "3. Resources/HouseViz/web_app/node_modules/@types",
-    "3. Resources/HouseViz/web_app/node_modules/@uiw",
-    "3. Resources/HouseViz/web_app/node_modules/@tiptap",
-    "3. Resources/HouseViz/web_app/node_modules/@tanstack",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
