@@ -30,21 +30,8 @@
               "icon": "lucide-file",
               "title": "2026-01-26"
             }
-          },
-          {
-            "id": "c772f1cd39e0af62",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.5"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,7 +226,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "c772f1cd39e0af62",
+  "active": "6b44d63c51ea1528",
   "lastOpenFiles": [
     "0. PeriodicNotes/2026/Daily/01/2026-01-21.md",
     "0. PeriodicNotes/2026/Daily/01/2026-01-26.md",
