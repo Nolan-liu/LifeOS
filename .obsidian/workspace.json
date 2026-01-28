@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d0b0347b430f701",
+        "id": "1d56dc226ee471d8",
         "type": "tabs",
         "children": [
           {
-            "id": "6b44d63c51ea1528",
+            "id": "f01e9615cb1cc979",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -226,10 +226,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "6b44d63c51ea1528",
+  "active": "f01e9615cb1cc979",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2026/Daily/01/2026-01-21.md",
+    "TASK.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-18.md",
+    "HOME.canvas",
     "0. PeriodicNotes/2026/Daily/01/2026-01-26.md",
+    "0. PeriodicNotes/2026/Daily/01/2026-01-21.md",
     "0. PeriodicNotes/2026/Daily/01/2026-01-13.md",
     "0. PeriodicNotes/Templates/Daily.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-29.md",
@@ -247,17 +250,13 @@
     "0. PeriodicNotes/2025/Daily/12/2025-12-22.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-19.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-18.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-18.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-17.md",
-    "HOME.canvas",
     "README.md",
-    "TASK.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-17.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-16.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-15.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-12.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-11.md",
-    "0. PeriodicNotes/2025/Daily/12/2025-12-10.md",
     "2. Areas/personal-productivity/self-control",
     "0. PeriodicNotes/2025/Daily/12",
     "0. PeriodicNotes/2025/Daily/11",
