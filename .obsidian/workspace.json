@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2026/Daily/01/2026-01-26.md",
+                "file": "TASK.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-26"
+              "title": "TASK"
             }
           }
         ]
@@ -228,10 +228,10 @@
   },
   "active": "f01e9615cb1cc979",
   "lastOpenFiles": [
-    "TASK.md",
-    "0. PeriodicNotes/2025/Daily/09/2025-09-18.md",
     "HOME.canvas",
     "0. PeriodicNotes/2026/Daily/01/2026-01-26.md",
+    "TASK.md",
+    "0. PeriodicNotes/2025/Daily/09/2025-09-18.md",
     "0. PeriodicNotes/2026/Daily/01/2026-01-21.md",
     "0. PeriodicNotes/2026/Daily/01/2026-01-13.md",
     "0. PeriodicNotes/Templates/Daily.md",
