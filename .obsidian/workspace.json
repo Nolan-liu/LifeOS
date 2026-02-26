@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "TASK"
             }
+          },
+          {
+            "id": "d8134fe4c99bfcf4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,7 +239,7 @@
       "templates:插入模板": false
     }
   },
-  "active": "318abbbcd7749f6f",
+  "active": "d8134fe4c99bfcf4",
   "lastOpenFiles": [
     "0. PeriodicNotes/2025/Daily/12/2025-12-17.md",
     "TASK.md",
