@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2026/Daily/03/2026-03-11.md",
+                "file": "1. Projects/OpenPianoAI/piano_ai_mirror_system_design_report.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-11"
+              "title": "piano_ai_mirror_system_design_report"
+            }
+          },
+          {
+            "id": "ed8137d1766e4393",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,10 +239,13 @@
       "templates:插入模板": false
     }
   },
-  "active": "20f04d83847b186b",
+  "active": "ed8137d1766e4393",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2026/Daily/02/2026-02-28.md",
+    "1. Projects/OpenPianoAI/OpenPianoAI.README.md",
+    "1. Projects/OpenPianoAI/piano_ai_mirror_system_design_report.md",
     "0. PeriodicNotes/2026/Daily/03/2026-03-11.md",
+    "1. Projects/OpenPianoAI",
+    "0. PeriodicNotes/2026/Daily/02/2026-02-28.md",
     "0. PeriodicNotes/2026/Daily/03",
     "0. PeriodicNotes/2026/Daily/02",
     "2. Areas/music/music.README.md",
@@ -259,12 +275,9 @@
     "0. PeriodicNotes/2025/Daily/12/2025-12-19.md",
     "0. PeriodicNotes/2025/Daily/12/2025-12-18.md",
     "0. PeriodicNotes/2025/Daily/09/2025-09-17.md",
-    "README.md",
-    "0. PeriodicNotes/2025/Daily/12/2025-12-16.md",
     "2. Areas/personal-productivity/self-control",
     "0. PeriodicNotes/2025/Daily/12",
     "0. PeriodicNotes/2025/Daily/11",
-    "2. Areas/personal-productivity/review/Daily/未命名.base",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
