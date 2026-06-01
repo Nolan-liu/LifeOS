@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d9346c59569c6691",
+        "id": "8cfde9b9509da1cf",
         "type": "tabs",
         "children": [
           {
-            "id": "20f04d83847b186b",
+            "id": "1eb63a379c5324f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -226,8 +226,10 @@
       "templates:插入模板": false
     }
   },
-  "active": "20f04d83847b186b",
+  "active": "1eb63a379c5324f2",
   "lastOpenFiles": [
+    "0. PeriodicNotes/2026/Daily/02/2026-02-28.md",
+    "0. PeriodicNotes/2026/Daily/03/2026-03-11.md",
     "0. PeriodicNotes/2026/Daily/06/2026-06-01.md",
     "0. PeriodicNotes/2026/Daily/06",
     "1. Projects/Piano/piano.README.md",
@@ -236,9 +238,7 @@
     "1. Projects/Piano",
     "1. Projects/OpenPianoAI/OpenPianoAI.README.md",
     "1. Projects/Piano/piano_ai_mirror_system_design_report.md",
-    "0. PeriodicNotes/2026/Daily/03/2026-03-11.md",
     "1. Projects/OpenPianoAI",
-    "0. PeriodicNotes/2026/Daily/02/2026-02-28.md",
     "0. PeriodicNotes/2026/Daily/03",
     "0. PeriodicNotes/2026/Daily/02",
     "2. Areas/music/music.README.md",
