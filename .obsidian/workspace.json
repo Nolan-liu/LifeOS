@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. PeriodicNotes/2026/Daily/06/2026-06-08.md",
+                "file": "TASK.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-08"
+              "title": "TASK"
             }
           }
         ]
@@ -226,12 +226,12 @@
       "templates:插入模板": false
     }
   },
-  "active": "318abbbcd7749f6f",
+  "active": "1eb63a379c5324f2",
   "lastOpenFiles": [
-    "0. PeriodicNotes/2026/Daily/06/2026-06-01.md",
-    "0. PeriodicNotes/2026/Daily/06/2026-06-08.md",
-    "1. Projects/Guitaptic/technical-solution.md",
     "HOME.canvas",
+    "0. PeriodicNotes/2026/Daily/06/2026-06-08.md",
+    "0. PeriodicNotes/2026/Daily/06/2026-06-01.md",
+    "1. Projects/Guitaptic/technical-solution.md",
     "TASK.md",
     "0. PeriodicNotes/2026/Daily/06/未命名.base",
     "1. Projects/Guitaptic/Guitaptic.README.md",
@@ -264,7 +264,6 @@
     "2. Areas/health/disease/如何使用他克莫司与保湿霜.md",
     "2. Areas/health/disease/disease.README.md",
     "2. Areas/health/disease/他克莫司与保湿霜.md",
-    "2. Areas/health/disease/5岁男童皮肤科疾病推断-ChatGPT-20251222.md",
     "3. Resources/HouseViz/web_app/public/imgs/users/9.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/8.png",
     "3. Resources/HouseViz/web_app/public/imgs/users/7.png",
