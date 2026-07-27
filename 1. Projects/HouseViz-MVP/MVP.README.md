@@ -4,7 +4,7 @@ tags:
 aliases: "#HouseViz/MVP"
 ---
 %%Set the project deadline and its result description%%
-- [ ] deadline 📅 2025-11-11
+- [ ] deadline 📅 2027-11-11
 - key result> 单人全栈（熟悉 Next.js / Mapbox / Three.js），按周估算：
 
 - **Week 0**：准备与环境（Mapbox key, Next.js scaffold, Overpass helper） — 1–2 天

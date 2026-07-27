@@ -4,7 +4,7 @@ tags:
 aliases: "#AP"
 ---
 %%Set the project deadline and its result description%%
-- [ ] deadline 📅 2025-12-31
+- [x] deadline 📅 2025-12-31 ✅ 2026-07-27
 - key result
 
 ## Task

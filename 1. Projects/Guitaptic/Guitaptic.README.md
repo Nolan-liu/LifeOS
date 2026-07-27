@@ -4,7 +4,7 @@ tags:
 aliases: "#Guitaptic"
 ---
 ![[technical-solution]]%%Set the project deadline and its result description%%
-- [ ] deadline 📅 2024-xx-xx
+- [ ] deadline 📅 2026-07-27
 - key result
 
 ## Task
